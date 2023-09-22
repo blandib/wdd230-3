@@ -110,8 +110,8 @@ ul a {
     color: black;
 }
 ul :hover {
-    background-color: white;
-    color: red;
+    background-color: black;
+    color: white;
 }
 
  footer {
