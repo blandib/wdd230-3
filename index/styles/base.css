@@ -104,9 +104,14 @@ ul {
     color: black;
     
 }
+ul a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
 ul :hover {
     background-color: white;
-    color: black;
+    color: red;
 }
 
  footer {
