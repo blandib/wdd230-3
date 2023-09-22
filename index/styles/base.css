@@ -62,8 +62,8 @@ nav {
   }
 
   nav a:hover {
-    background-color: white;
-    color: gray;
+    background-color: black;
+    color: white;
     
   }
 
