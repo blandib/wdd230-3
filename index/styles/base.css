@@ -47,6 +47,9 @@ nav {
     height: 40px;
     display: flex;
     justify-content: space-around;
+    list-style: none;
+    margin:  0 auto;
+    max-width: 1000px;
       
   }
 
@@ -69,14 +72,49 @@ nav {
     color: white;
     
   }
+#burger-menu {
+    display: block;
+	text-decoration: none;
+	padding: 1px;
+	background-color: grey;
+	color: #000;
+}
+.side-nav  li{
+    display: none;
 
+}
+.side-nav a {
+    display: block;
+    padding: 0.75rem;
+    text-align: right;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    transition: 5ms;
+}
+.side-nav a:hover, .side-nav a:active {
+    color: beige;
+    background-color: #000;
+}
+#burger-menu::before {
+	content: "≡";
+}
+nav {
+	background-color: #eee;
+}
+.open li {
+    display: block;
+
+}
+#burger-menu.open::before {
+    content: "X";
+}  
+ 
 
 h2 {  
-    /*border-bottom: 1px solid grey;
-    padding: 50px;*/
+    
     text-decoration-line: underline;
-    text-align: start;
-    /*border-bottom: 1px solid grey;*/
+    text-align: start;/*border-bottom: 1px solid grey;*/
     padding-bottom: 20px;
 
 }
@@ -125,6 +163,9 @@ main .card p {
    
     padding: 10px;
 }
+iframe {
+    width: 900px;
+}
 
  footer {
     background-color: black;
@@ -136,4 +177,3 @@ main .card p {
     flex-direction: column;
     
  }
-  
