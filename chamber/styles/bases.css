@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Young+Serif&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.content {
+    font-family: "Young Seri" , Merriweather ;
+    max-width: 990px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-color: #d785da;
+    color: black;
+    
+}
+.logo {
+    width: 130px;
+    padding-top: 10px;
+    justify-self: left;
+    text-align: left;
+    height: 100px;
+}
+nav {
+    text-align: center;
+    justify-self: center;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    font-family: Young Seri;
+   font-size: 1.5rem;
+}
+nav a:hover {
+    color: #d785da;
+    background-color: white;
+}
+.hero {
+    width: 100%;
+    padding: 10px;
+    border: 10px 10px 15px #e40808;
+    z-index: -1;
+}
+.button-box {
+    text-align: center;
+   
+}
+/*main .card {
+    width: 50%;
+    padding: 5px;
+    
+}*/
+main {
+    border: 10px 10px 15px #e40808;
+   justify-content: center;
+   background-color: #f0e370;
+   box-shadow: 10px 10px 15px #e40808;
+   margin: 5px;
+   height: 1000px;
+}
+main .left {
+    float: left;
+    
+    width: 25%;
+}
+main .right {
+    width: 25%;
+    float: right;
+   
+    
+}
+
+footer {
+    background-color: #d785da;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+footer .foot, .foo {
+    
+}
