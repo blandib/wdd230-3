@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Young+Serif&display=swap');
 *{
     box-sizing: border-box;
-    margin: 0;
+    /*margin: 0;*/
 
 }
 .content {
@@ -11,6 +11,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    
 }
 
 header {
@@ -23,10 +24,11 @@ header {
 }
 .logo {
     width: 130px;
-    padding-top: 10px;
+    padding-top: 5px;
     justify-self: left;
     text-align: left;
-    height: 100px;
+    padding: 10px;
+    
 }
 nav {
     text-align: center;
@@ -40,16 +42,27 @@ nav a {
     padding: 3px;
     font-family: Young Seri;
    font-size: 1.5rem;
+   height: 200px;
+   list-style: none;
 }
 nav a:hover {
     color: #d785da;
     background-color: white;
 }
+nav li {
+    list-style: none;
+    /*position: relative;*/
+    display: inline-block;
+    
+
+
+}
 .hero {
-    width: 100%;
+    width: 95%;
     padding: 10px;
-    border: 10px 10px 15px #e40808;
-    z-index: -1;
+    border: 1px solid #e40808;
+    box-shadow: 0 0 15px #d785da;
+    padding: 20px;
 }
 .button-box {
     text-align: center;
@@ -61,32 +74,64 @@ nav a:hover {
     
 }*/
 main {
-    border: 10px 10px 15px #e40808;
+    
    justify-content: center;
-   background-color: #f0e370;
-   box-shadow: 10px 10px 15px #e40808;
+   background-color: #eee;
+   
    margin: 5px;
    height: 1000px;
 }
-main .left {
-    float: left;
-    
-    width: 25%;
+main .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 20px;
 }
-main .right {
-    width: 25%;
-    float: right;
-   
+
+/*#side-nav a {
+    display: block;
+    /*padding: 0.75rem;*/
+   /* text-align: center;
+    text-decoration: none;
+    color: #f0e370;
+    font-weight: 200;
+    transition: 5ms;
+}*/
+/*#side-nav a:hover, .side-nav a:active {
+    color: beige;
+    background-color: #000;
+}*/
+/*.menu::before {
+	content: "≡";
+}
+
+.open li {
+    display: block;
+
+}
+.menu.open::before {
+    content: "X";
+}  */
+#mode {
+	position: relative;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
     
 }
 
+
+
 footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
     background-color: #d785da;
     text-align: center;
     padding: 20px;
+    align-items: center;
+    text-align: center;
     
-    
-}
-footer .foot, .foo {
     
 }

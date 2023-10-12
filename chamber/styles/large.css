@@ -1,0 +1,88 @@
+
+/* This style will apply only to devices with a max-width of 600px */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+ #side-nav {
+    display: block;
+ }
+ #side-nav  li{
+    display: none;
+}
+.menu {
+    display: block;
+	text-decoration: none;
+	padding: 1px;
+	background-color: #d785da;
+	color: #000;
+}
+.menu::before {
+	content: "≡";
+}
+
+.open li {
+    display: block;
+
+}
+.menu.open::before {
+    content: "X";
+}  
+ 
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+#side-nav{
+    display: block;
+    
+}
+#side-nav a:hover, .side-nav a:active {
+    color: #000;
+    background-color: #d785da;
+}
+#side-nav  li{
+    display: none;
+}
+.menu {
+    display: block;
+	text-decoration: none;
+	padding: 1px;
+	background-color: #d785da;
+	color: #000;
+}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+#side-nav {
+    display: block;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    #side-nav {
+        display: none;
+    }
+    
+    }
+    @media only screen and (min-width : 1200px) {
+        #side-nav {
+            display: none;
+        }
+        
+        }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
