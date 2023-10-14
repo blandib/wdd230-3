@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Young+Serif&display=swap');
 *{
     box-sizing: border-box;
-    /*margin: 0;*/
+    
 
 }
 .content {
@@ -68,17 +68,13 @@ nav li {
     text-align: center;
    
 }
-/*main .card {
-    width: 50%;
-    padding: 5px;
-    
-}*/
+
 main {
     
    justify-content: center;
    background-color: #f0e370;
    margin: 5px;
-   height: 1000px;
+   height: 1200px;
 }
 main .grid {
     display: grid;
@@ -97,8 +93,7 @@ main .grid {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #d785da;
-    z-index: -10px;
-}
+} 
 .book:hover { background-color: #d785da;}
 .book:active {
     background-color: #d785da;
@@ -106,30 +101,7 @@ main .grid {
     transform: translateY(4px);
 }
 
-/*#side-nav a {
-    display: block;
-    /*padding: 0.75rem;*/
-   /* text-align: center;
-    text-decoration: none;
-    color: #f0e370;
-    font-weight: 200;
-    transition: 5ms;
-}*/
-/*#side-nav a:hover, .side-nav a:active {
-    color: beige;
-    background-color: #000;
-}*/
-/*.menu::before {
-	content: "≡";
-}
 
-.open li {
-    display: block;
-
-}
-.menu.open::before {
-    content: "X";
-}  */
 #mode {
 	position: absolute;
 	top: 1rem;
@@ -138,18 +110,27 @@ main .grid {
 	cursor: pointer;
     
 }
+div .foot {
+    width: 30%;
+    float: left;
+    margin: 20px;
 
+    
+}
+div .foo {
+    width: 40%;
+    float: right;
+}
 
 
 footer {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px;
+    
     background-color: #d785da;
     text-align: center;
     padding: 20px;
     align-items: center;
     text-align: center;
+    height: 100px;
     
     
 }
