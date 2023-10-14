@@ -76,8 +76,7 @@ nav li {
 main {
     
    justify-content: center;
-   background-color: #eee;
-   
+   background-color: #f0e370;
    margin: 5px;
    height: 1000px;
 }
@@ -86,6 +85,25 @@ main .grid {
     grid-template-columns: 1fr 1fr;
     text-align: center;
     gap: 20px;
+}
+.book {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #f0e370;
+    background-color: #e40808;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #d785da;
+    z-index: -10px;
+}
+.book:hover { background-color: #d785da;}
+.book:active {
+    background-color: #d785da;
+    box-shadow: 0 5px #e40808;
+    transform: translateY(4px);
 }
 
 /*#side-nav a {
@@ -113,7 +131,7 @@ main .grid {
     content: "X";
 }  */
 #mode {
-	position: relative;
+	position: absolute;
 	top: 1rem;
 	right: 1rem;
 	font-size: 3rem;
