@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <title>WDD230 CSS Keyframe Animations</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="styles/nomalizes.css">
+        <link rel="stylesheet" href="../styles/properties.css">
+        <link rel="stylesheet" href="styles/lager.css">
+    </head>
+    <body>
+        <header id="container">
+            <h1>WDD 230 Week 6</h1>
+
+        </header>
+        <nav>
+        <div class="navbar">
+            <a href="../presentation.html">Video</a>
+            <div class="subnav">
+                <button class="subnavbtn">Basics<i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a class="articve" href="basics.html">Animations</a>
+                    <a href="element.html">Element</a> 
+                    <a href="bing-end.html">Bing/End</a>
+                    <a href="../multiple-style.html">Multiple Style</a>
+                    <a href="../duration.html">Duration</a>
+                </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">Properties <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="../properties/delays.html">Delays</a>
+                      <a href="../properties/repeat.html">Repeat</a>
+                      <a href="../properties/directions.html">Directions</a>
+                      <a href="timing.html">Timing</a>
+                      <a href="fill.html">Fill</a>
+                      <a href="shorthand.html">Shorthand</a>
+                    </div>
+                  </div>
+                    <div class="subnav">
+                      <a href="example.html">Example</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <main id="sun">
+        <section>
+            <h2>CSS Keyframe Animations</h2>
+            <hr>
+            <h3>Shorthand</h3>
+            <p>The shorthand animation property is a convenient way to apply an animation between styles without having to write all the individual properties.</p>
+                <h4>Example</h4>
+                <p><br>&emsp;div {
+                    <br>&emsp; animation-name: example;
+                    <br>&emsp;animation-timing-function: ease-in;
+                    <br>&emsp;animation-delay: 2s;
+                    <br>&emsp;animation-duration: 4s;
+                    <br>&emsp;animation-iteration-count: infinite;
+                    <br>&emsp;animation-fill-mode: none;
+                    <br>&emsp;animation: short 5s infinite;
+                    <br>&emsp;animation-direction: alternate;
+                    <br>&emsp; }</p>
+                    <h4>Example</h4>
+                    <p><br>&emsp;div {
+                            <br>&emsp;animation: 4s linear 0s infinite alternate sun-rise;
+                            
+                       <br>&emsp; }</p>
+                       <P>This example uses all of the values specified above.</P>
+                       <div class="sh"></div>
+        </section>
+        </main>
+        <footer>
+            <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa| <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="lastModified"></p>
+
+        </footer>
+        <script src="script/animation.js"></script>
+    </body>
+</html>

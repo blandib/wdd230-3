@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <title>WDD230 CSS Keyframe Animations</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="styles/nomalizes.css">
+        <link rel="stylesheet" href="styles/animation.html.css">
+        <link rel="stylesheet" href="styles/lager.css">
+    </head>
+    <body>
+        <header id="container">
+            <h1>WDD 230 Week 6</h1>
+
+        </header>
+        <nav>
+        <div class="navbar">
+            <a href="presentation.html">Video</a>
+            <div class="subnav">
+                <button class="subnavbtn">Basics<i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a class="articve" href="basics.html">Animations</a>
+                    <a href="element.html">Element</a> 
+                    <a href="bing-end.html">Bing/End</a>
+                    <a href="multiple-style.html">Multiple Style</a>
+                    <a href="duration.html">Duration</a>
+                </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">Properties <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="../week6/properties/delays.html">Delays</a>
+                      <a href="../week6/properties/repeat.html">Repeat</a>
+                      <a href="../week6/properties/directions.html">Directions</a>
+                      <a href="../week6/properties/timing.html">Timing</a>
+                      <a href="../week6/properties/fill.html">Fill</a>
+                      <a href="../week6/properties/shorthand.html">Shorthand</a>
+                    </div>
+                  </div>
+                    <div class="subnav">
+                      <a href="../week6/properties/example.html">Example</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <main>
+            <section>
+            <h2>CSS Keyframe Animations</h2>
+            <hr>
+            <h3>What is a CSS Keyframe Animation?</h3>
+            <p>It allow us to creating dynamic and interactive effects on web pages using CSS. It allows us to specify different styles for an element at different points in the animation.  For example Make an element move gradually 200px down</p>
+                <div class="txt">
+                <h4>CSS Syntax</h4>
+                <p class="code1">@keyframes <i>animationname</i>{
+                    <br>&emsp; {keyframes-selector {css-styles;}}
+                <br>}</p>
+                </div>
+                <div class="txt">
+                <h4>Example</h4>
+                <p class="code">@keyframes mymove { 
+                    <br>&emsp;from {top: 0px;}
+                    <br>&emsp;to {top: 200px;}      
+                    <br>}</p>
+                </div>
+                    <p>In this Example the element is moving to one Directions to another.</p>
+            <div id="Key-EX"></div>
+            </section>
+             
+        </main>
+        <footer>
+            <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa| <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="lastModified"></p>
+
+        </footer>
+        <script src="script/animation.js"></script>
+    </body>
+</html>

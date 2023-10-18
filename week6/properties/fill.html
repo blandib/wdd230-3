@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <title>WDD230 CSS Keyframe Animations</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="styles/nomalizes.css">
+        <link rel="stylesheet" href="../styles/properties.css">
+        <link rel="stylesheet" href="styles/lager.css">
+    </head>
+    <body>
+        <header id="container">
+            <h1>WDD 230 Week 6</h1>
+
+        </header>
+        <nav>
+        <div class="navbar">
+            <a href="../presentation.html">Video</a>
+            <div class="subnav">
+                <button class="subnavbtn">Basics<i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a class="articve" href="basics.html">Animations</a>
+                    <a href="element.html">Element</a> 
+                    <a href="bing-end.html">Bing/End</a>
+                    <a href="../multiple-style.html">Multiple Style</a>
+                    <a href="../duration.html">Duration</a>
+                </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">Properties <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="../properties/delays.html">Delays</a>
+                      <a href="../properties/repeat.html">Repeat</a>
+                      <a href="../properties/directions.html">Directions</a>
+                      <a href="timing.html">Timing</a>
+                      <a href="fill.html">Fill</a>
+                      <a href="shorthand.html">Shorthand</a>
+                    </div>
+                  </div>
+                    <div class="subnav">
+                      <a href="../properties/example.html">Example</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <main class="main">
+        <section>
+            <h2>CSS Keyframe Animations</h2>
+            <hr>
+            <h3>Fill</h3>
+            <p>The animation-fill-mode property specifies a style for the element when the animation is not playing (before it starts, after it ends, or both).
+            CSS animations do not affect the element before the first keyframe is played or after the last keyframe 
+            is played. The animation-fill-mode property can override this behavior.It can be used to make the 
+            animation remain in its final state or start from its initial state, depending on the value you choose. 
+            There are four values for this property: </p>
+
+                <p><b>none:</b> The default value. The animation will not apply any styles to the element before or after it is executing.</p>
+                <p><b>forwards:</b> The element will retain the style values that is set by the last keyframe encountered during execution.</p>
+                <p><b>backwards:</b> The element will get the style values that is set by the first keyframe (depends on animation-direction), and retain this during the animation-delay period.</p>
+                <p><b>both:</b> The animation will follow the rules for both forwards and backwards, extending the animation properties in both directions.</p>
+                <h4>Example</h4>
+                <p><br>&emsp;div {
+                    <br>&emsp; width: 100px;
+                    <br>&emsp; height: 100px;
+                    <br>&emsp;background: red;
+                    <br>&emsp;position: relative;
+                    <br>&emsp;animation: mymove 3s;
+                    <br>&emsp;animation-delay: 2s;
+                    <br>&emsp;animation-fill-mode: both;
+                    <br>&emsp;animation-duration: 4s;
+                    <br>&emsp;animation-delay: 2s;
+                    <br>&emsp;animation-fill-mode: value;
+                    <br>&emsp;}</p>
+                    <p><br>&emsp;@keyframes mymove {
+                        <br>&emsp;from {top: 0px; background-color: yellow;}
+                        <br>&emsp;to {top: 200px; background-color: blue;}
+                        <br>&emsp; }</p>
+
+                     <p>In this example boxes will move from one up and down and changing their color of background</p>
+
+                    <div class="one">none</div>
+                    <div class="two">both</div>
+                    <div class="three">forward</div>
+                    <div class="four">backwards</div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa| <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="lastModified"></p>
+
+        </footer>
+        <script src="script/animation.js"></script>
+    </body>
+</html>

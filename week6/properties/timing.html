@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <title>WDD230 CSS Keyframe Animations</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="styles/nomalizes.css">
+        <link rel="stylesheet" href="../styles/properties.css">
+        <link rel="stylesheet" href="styles/lager.css">
+    </head>
+    <body>
+        <header id="container">
+            <h1>WDD 230 Week 6</h1>
+
+        </header>
+        <nav>
+        <div class="navbar">
+            <a href="../presentation.html">Video</a>
+            <div class="subnav">
+                <button class="subnavbtn">Basics<i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a class="articve" href="basics.html">Animations</a>
+                    <a href="element.html">Element</a> 
+                    <a href="bing-end.html">Bing/End</a>
+                    <a href="../multiple-style.html">Multiple Style</a>
+                    <a href="../duration.html">Duration</a>
+                </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">Properties <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="../properties/delays.html">Delays</a>
+                      <a href="../properties/repeat.html">Repeat</a>
+                      <a href="../properties/directions.html">Directions</a>
+                      <a href="timing.html">Timing</a>
+                      <a href="fill.html">Fill</a>
+                      <a href="shorthand.html">Shorthand</a>
+                    </div>
+                  </div>
+                    <div class="subnav">
+                      <a href="../properties/example.html">Example</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <main>
+        <section>
+            <h2>CSS Keyframe Animations</h2>
+            <hr>
+            <h3>Timing</h3>
+            <p>The animation-timing-function specifies the speed curve of an animation.You can specify the timing of the animation by using the animation-timing-function property.which defines the time it takes for an animation to change from one set of CSS styles to another. Let’s explore the different options:</p>
+            <p>Linear: The animation has the same speed from start to end.</p>
+            <p>Ease: This is the default value. The animation has a slow start, speeds up in the middle, and slows down at the end.</p>
+            <p>Ease-in: The animation has a slow start.</p>
+            <p>Ease-out: The animation has a slow end.</p>
+            <p>Ease-in-out: The animation has both a slow start and a slow end.</p>
+            <p>Cubic Bezier: You can define your own values using the cubic-bezier function with four numeric parameters (ranging from 0 to 1).</p>
+                <h4>Example</h4>
+                <p><br>&emsp;  #div1 { animation-timing-function: linear; }
+                    <br>&emsp;    #div2 { animation-timing-function: ease; }
+                        <br>&emsp; #div3 { animation-timing-function: ease-in; }
+                            <br>&emsp; #div4 { animation-timing-function: ease-out; }
+                                <br>&emsp; #div5 { animation-timing-function: ease-in-out; }  
+                                    <br>&emsp; #div6 { animation-timing-function: cubic-bezier; } </p>
+                                    <p>In this example we are moving the boxes from one side of the screenthe animation-timing-function properties available. Our cubic-bezier will have the following values: (0, 0, 1,1). </p>
+                                    <div id="div1">linear</div>
+                                    <div id="div2">ease</div>
+                                    <div id="div3">ease-in</div>
+                                    <div id="div4">ease-out</div>
+                                    <div id="div5">ease-in-out</div>
+                                    <div id="div6">cubic-bezier</div>
+
+        </section>
+        </main>
+        <footer>
+            <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa| <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="lastModified"></p>
+
+        </footer>
+        <script src="script/animation.js"></script>
+    </body>
+</html>

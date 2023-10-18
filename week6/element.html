@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <title>WDD230 CSS Keyframe Animations</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="styles/nomalizes.css">
+        <link rel="stylesheet" href="styles/animation.html.css">
+        <link rel="stylesheet" href="styles/lager.css">
+    </head>
+    <body>
+        <header id="container">
+            <h1>WDD 230 Week 6</h1>
+
+        </header>
+        <nav>
+        <div class="navbar">
+            <a href="presentation.html">Video</a>
+            <div class="subnav">
+                <button class="subnavbtn">Basics<i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a class="articve" href="basics.html">Animations</a>
+                    <a href="element.html">Element</a> 
+                    <a href="bing-end.html">Bing/End</a>
+                    <a href="multiple-style.html">Multiple Style</a>
+                    <a href="duration.html">Duration</a>
+                </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">Properties <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="../week6/properties/delays.html">Delays</a>
+                      <a href="../week6/properties/repeat.html">Repeat</a>
+                      <a href="../week6/properties/directions.html">Directions</a>
+                      <a href="../week6/properties/timing.html">Timing</a>
+                      <a href="../week6/properties/fill.html">Fill</a>
+                      <a href="../week6/properties/shorthand.html">Shorthand</a>
+                    </div>
+                  </div>
+                    <div class="subnav">
+                      <a href="../week6/properties/example.html">Example</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <main>
+            
+           <section >
+            <h2>CSS Keyframe Animations</h2>
+            <hr>
+
+                <h3>Binding</h2>
+                <p>Binding in CSS refers to associating a CSS style with one or more HTML elements in a document.
+                    To get an animation to work, you must bind the animation to an element.Here’s how it works,
+                    Start by creating a @keyframes rule with a name. This name will be used by the animation-name 
+                    property to match an animation to its keyframe declaration.</P>
+                    <h4>CSS Syntax</h4>
+                    <p class="code2">@keyframes <i>animationname</i> {
+                        <br>&emsp;<i>keyframes-selector</i> {<i>css-styles</i>;}
+                        <br>}</p>
+                        <h4>Example</h4>
+                        <p class="code2">@keyframes <i>Example</i> {
+                          <br> &emsp; from {
+                          <br> &emsp; transform: translateX(0%);
+                          }
+                          <br>&emsp; to {
+                          <br>&emsp;  transform: translateX(100%);
+                          }
+                          <br>&emsp;  }</p>
+            </section>
+
+        </main>
+        <footer>
+            <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa| <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="lastModified"></p>
+
+        </footer>
+        <script src="script/animation.js"></script>
+    </body>
+</html>

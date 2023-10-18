@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Dosis:wght@200&family=Fira+Sans+Condensed:wght@200&family=Merriweather:wght@300&family=Young+Serif&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+#container {
+  font-family: "DM Sans", Dosis;
+}  
+header, footer, main, nav, div {
+	max-width: 60em;
+	margin: 0 auto;
+}
+header, footer {
+	background-color: #393b3a;
+	color: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+/* The navigation menu */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* The subnavigation menu */
+.subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    
+    left: 0;
+    background-color: red;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  #Key-EX {
+  width: 50px;
+  height: 50px;
+  /*background: red;*/
+  position: relative;
+  animation: mymove 5s infinite;
+ 
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 100px;}
+}
+.txt {
+ 
+ display: inline;
+ padding: 20px;
+ margin: 0 auto;
+ gap: 30px;
+ border: #333;
+ box-shadow: #333;
+}
+div .txt{
+  padding: 20px;
+  margin: 20px;
+}
+h4 {
+  background-color: #333;
+  color: #eee;
+  height: 50px;
+}
+h2 h3 {
+  margin:  0 auto;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  
+}
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #645d5d;
+  text-decoration: none;
+  height: 50px;
+}
+main   div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+main .get {
+  width: 50px;
+  height: 50px;
+  background: red;
+  position: relative;
+  animation: myfour 5s infinite;
+}
+
+@keyframes myfour {
+  0%   {top: 0px; left: 0px; background: red;}
+  25%  {top: 0px; left: 100px; background: blue;}
+  50%  {top: 100px; left: 100px; background: yellow;}
+  75%  {top: 100px; left: 0px; background: green;}
+  100% {top: 0px; left: 0px; background: red;}
+}
+
+#exampleFour {
+	margin-bottom: 20px;
+}
+#exampleFour:focus {
+    outline: none;
+}
+#exampleFour {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  animation-name: button;
+  animation-duration: 10s;
+}
+
+@keyframes button {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}

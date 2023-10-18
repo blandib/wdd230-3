@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <title>WDD230 CSS Keyframe Animations</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="styles/nomalizes.css">
+        <link rel="stylesheet" href="../styles/properties.css">
+        <link rel="stylesheet" href="styles/lager.css">
+    </head>
+    <body>
+        <header id="container">
+            <h1>WDD 230 Week 6</h1>
+
+        </header>
+        <nav>
+        <div class="navbar">
+            <a href="../presentation.html">Video</a>
+            <div class="subnav">
+                <button class="subnavbtn">Basics<i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a class="articve" href="basics.html">Animations</a>
+                    <a href="element.html">Element</a> 
+                    <a href="bing-end.html">Bing/End</a>
+                    <a href="../multiple-style.html">Multiple Style</a>
+                    <a href="../duration.html">Duration</a>
+                </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">Properties <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="../properties/delays.html">Delays</a>
+                      <a href="../properties/repeat.html">Repeat</a>
+                      <a href="../properties/directions.html">Directions</a>
+                      <a href="../properties/timing.html">Timing</a>
+                      <a href="../properties/fill.html">Fill</a>
+                      <a href="../properties/shorthand.html">Shorthand</a>
+                    </div>
+                  </div>
+                    <div class="subnav">
+                      <a href=".//example.html">Example</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <main>
+        <section>
+            <h2>CSS Keyframe Animations</h2>
+            <hr>
+            <h3>Repeat</h3>
+            <p>To repeat an animation cycle a specific number of times in CSS, you can use the animation-iteration-count property.</p>
+            <h4>Example</h4>
+            
+            
+               <p><br>&emsp;.x {
+                 <br>&emsp;   width: 15px;
+                  <br>&emsp;  height: 15px;
+                  <br>&emsp;  background: #dbdbdb;
+                   <br>&emsp; border-radius: 50px;
+                   <br>&emsp; display: inline-block;
+                   <br>&emsp; animation: fade 1s forwards;
+                   <br>&emsp; -webkit-animation: fade 1s forwards;
+                  <br>&emsp;  -moz-animation: fade 1s forwards;
+                  <br>&emsp;  -o-animation: fade 1s forwards;
+                   <br>&emsp; animation-iteration-count: infinite;
+                   <br>&emsp; -webkit-animation-iteration-count: infinite;
+                   <br>&emsp; -moz-animation-iteration-count: infinite;  
+                   <br>&emsp; -o-animation-iteration-count: infinite;
+                <br>&emsp;  }</p>
+                  
+               
+              <p><br>&emsp;   .b 
+                <br>&emsp;  {
+                  <br>&emsp;    animation: fade 2s forwards;
+                  <br>&emsp;  -webkit-animation: fade 2s forwards;
+                  <br>&emsp;  -moz-animation: fade 2s forwards;
+                   <br>&emsp; -o-animation: fade 2s forwards;
+                   <br>&emsp; animation-iteration-count: infinite;
+                  <br>&emsp;  -webkit-animation-iteration-count: infinite;
+                  <br>&emsp;  -moz-animation-iteration-count: infinite;  
+                  <br>&emsp;  -o-animation-iteration-count: infinite;
+                <br>&emsp;  }</p>
+                
+              <p><br>&emsp;  .c 
+                <br>&emsp;  {
+                   <br>&emsp;   animation: fade 3s forwards;
+                   <br>&emsp; -webkit-animation: fade 3s forwards;
+                  <br>&emsp;  -moz-animation: fade 3s forwards;
+                   <br>&emsp; -o-animation: fade 3s forwards;
+                   <br>&emsp; animation-iteration-count: infinite;
+                   <br>&emsp; -webkit-animation-iteration-count: infinite;
+                   <br>&emsp; -moz-animation-iteration-count: infinite;  
+                  <br>&emsp;  -o-animation-iteration-count: infinite;
+                <br>&emsp;  }</p>
+                 
+               <p><br>&emsp; @keyframes fade {
+                 <br>&emsp; 0%   {opacity:0;}
+                 <br>&emsp; 50%   {opacity:1;}
+                <br>&emsp;  100% {opacity:0;}
+                <br>&emsp;  }</p>
+        </section>
+        <section>
+                <p class="ex">In this example the animetions keep repeating countless time</p>
+                
+                <div class="x a"></div>
+                <div class="x b"></div>
+                <div class="x c"></div>
+        </section>
+    
+        </main>
+        <footer>
+            <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa| <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="lastModified"></p>
+
+        </footer>
+        <script src="script/animation.js"></script>
+    </body>
+</html>

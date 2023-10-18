@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <title>WDD230 CSS Keyframe Animations</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="styles/nomalizes.css">
+        <link rel="stylesheet" href="../styles/properties.css">
+        <link rel="stylesheet" href="styles/lager.css">
+    </head>
+    <body>
+        <header id="container">
+            <h1>WDD 230 Week 6</h1>
+
+        </header>
+        <nav>
+        <div class="navbar">
+            <a href="../presentation.html">Video</a>
+            <div class="subnav">
+                <button class="subnavbtn">Basics<i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a class="articve" href="basics.html">Animations</a>
+                    <a href="element.html">Element</a> 
+                    <a href="bing-end.html">Bing/End</a>
+                    <a href="../multiple-style.html">Multiple Style</a>
+                    <a href="../duration.html">Duration</a>
+                </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">Properties <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="../properties/delays.html">Delays</a>
+                      <a href="../properties/repeat.html">Repeat</a>
+                      <a href="../properties/directions.html">Directions</a>
+                      <a href="timing.html">Timing</a>
+                      <a href="fill.html">Fill</a>
+                      <a href="shorthand.html">Shorthand</a>
+                    </div>
+                  </div>
+                    <div class="subnav">
+                      <a href="../properties/example.html">Example</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <main>
+        <section>
+            <h2>CSS Keyframe Animations</h2>
+            <hr>
+            <h3>Direction</h3>
+            <P>The animation-direction property defines whether an animation should be played forwards, backwards or in alternate cycles.Here are the values The animation-direction property :</P>
+            <p class="value">1. normal: The animation plays forwards each cycle. It resets to the beginning state and starts over</p>
+            <p class="value">2. reverse: The animation plays backwards each cycle. It resets to the end state and starts over. Easing functions are also reversed.</p>
+            <p class="value">3 . alternate: The animation reverses direction each cycle, with the first iteration being played forwards.</p>
+            <p class="value">4. alternate-reverse: Similar to alternate, but the first iteration is played backwards.</p>
+            <h4>CSS Syntax</h4>
+            <p>animation-direction: normal|reverse|alternate|alternate-reverse|initial|inherit;</p>
+        <section>
+            <h4>Example</h4>
+            <P><br>&emsp; div {width: 50px;
+                <br>&emsp;height: 50px;
+                <br>&emsp;background: red;
+                <br>&emsp;position: relative;
+                <br>&emsp;animation: myfour 5s infinite;
+                <br>&emsp; animation-direction: normal;
+                <br>&emsp;}</P>
+            <p> <br>&emsp;@keyframes mymove {
+                <br>&emsp; 0% { top: 0px; left: 0px; background: red; }
+                <br>&emsp; 25% { top: 0px; left: 100px; background: blue; }
+                <br>&emsp; 50% { top: 100px; left: 100px; background: yellow; }
+                <br>&emsp; 75% { top: 100px; left: 0px; background: green; }
+                <br>&emsp; 100% { top: 0px; left: 0px; background: red; }
+                <br>&emsp; }</p>
+                <div class="get"></div>
+                <p>In this example The background color is change everytime the that the animetions is moving.and cycling through the sequence in normal</p>
+        </section>
+        <section>
+            <h4>Example</h4>
+            <p><br>&emsp;.x {
+                <br>&emsp;   width: 15px;
+                 <br>&emsp;  height: 15px;
+                 <br>&emsp;  background: #dbdbdb;
+                  <br>&emsp; border-radius: 50px;
+                  <br>&emsp; display: inline-block;
+                  <br>&emsp; animation: fade 1s forwards;
+                  <br>&emsp; -webkit-animation: fade 1s forwards;
+                 <br>&emsp;  -moz-animation: fade 1s forwards;
+                 <br>&emsp;  -o-animation: fade 1s forwards;
+                  <br>&emsp; animation-iteration-count: infinite;
+                  <br>&emsp; -webkit-animation-iteration-count: infinite;
+                  <br>&emsp; -moz-animation-iteration-count: infinite;  
+                  <br>&emsp; -o-animation-iteration-count: infinite;
+               <br>&emsp;  }</p>
+               <p><br>&emsp;   .b 
+                <br>&emsp;  {
+                  <br>&emsp;    animation: fade 2s forwards;
+                  <br>&emsp;  -webkit-animation: fade 2s forwards;
+                  <br>&emsp;  -moz-animation: fade 2s forwards;
+                   <br>&emsp; -o-animation: fade 2s forwards;
+                   <br>&emsp; animation-iteration-count: infinite;
+                  <br>&emsp;  -webkit-animation-iteration-count: infinite;
+                  <br>&emsp;  -moz-animation-iteration-count: infinite;  
+                  <br>&emsp;  -o-animation-iteration-count: infinite;
+                <br>&emsp;  }</p>
+                
+              <p><br>&emsp;  .c 
+                <br>&emsp;  {
+                   <br>&emsp;   animation: fade 3s forwards;
+                   <br>&emsp; -webkit-animation: fade 3s forwards;
+                  <br>&emsp;  -moz-animation: fade 3s forwards;
+                   <br>&emsp; -o-animation: fade 3s forwards;
+                   <br>&emsp; animation-iteration-count: infinite;
+                   <br>&emsp; -webkit-animation-iteration-count: infinite;
+                   <br>&emsp; -moz-animation-iteration-count: infinite;  
+                  <br>&emsp;  -o-animation-iteration-count: infinite;
+                <br>&emsp;  }</p>
+                 
+               <p><br>&emsp; @keyframes fade {
+                 <br>&emsp; 0%   {opacity:0;}
+                 <br>&emsp; 50%   {opacity:1;}
+                <br>&emsp;  100% {opacity:0;}
+                <br>&emsp;  }</p>
+        </section>
+        <section>
+            <p>In this example The background color is change everytime the that the animetions is moving.and cycling through the sequence in reverse</p>
+
+                
+                <div class="x a" id="xa"></div>
+                <div class="x b" id="xa"></div>
+                <div class="x c" id="xa"></div>
+                
+        </section>
+        </main>
+        <footer>
+            <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa| <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="lastModified"></p>
+
+        </footer>
+        <script src="script/animation.js"></script>
+    </body>
+</html>

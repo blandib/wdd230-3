@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <title>WDD230 CSS Keyframe Animations</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="styles/nomalizes.css">
+        <link rel="stylesheet" href="styles/animation.html.css">
+        <link rel="stylesheet" href="styles/lager.css">
+    </head>
+    <body>
+        <header id="container">
+            <h1>WDD 230 Week 6</h1>
+        </header>
+        <nav>
+        <div class="navbar">
+            <a href="presentation.html">Video</a>
+            <div class="subnav">
+                <button class="subnavbtn">Basics<i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a class="articve" href="basics.html">Animations</a>
+                    <a href="element.html">Element</a> 
+                    <a href="bing-end.html">Bing/End</a>
+                    <a href="multiple-style.html">Multiple Style</a>
+                    <a href="duration.html">Duration</a>
+                </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">Properties <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="../week6/properties/delays.html">Delays</a>
+                      <a href="../week6/properties/repeat.html">Repeat</a>
+                      <a href="../week6/properties/directions.html">Directions</a>
+                      <a href="../week6/properties/timing.html">Timing</a>
+                      <a href="../week6/properties/fill.html">Fill</a>
+                      <a href="../week6/properties/shorthand.html">Shorthand</a>
+                    </div>
+                  </div>
+                  <div class="subnav">
+                    <a href="../week6/properties/example.html">Example</a>
+                  </div>
+                </div>
+          </div>
+      </nav>
+      <main>
+          
+         <section >
+             <h2>CSS Keyframe Animations</h2>
+             <hr>
+             <h3>Duration</h3>
+             <p>The property name "animation-duration" is placed within the element's selector and defines how long the animation will take to complete. This property must be specified or no animation will begin because the default value for it is 0s, meaning zero seconds.</p>
+             <h4 class="code">CSS Syntax</h4>
+             <p><br>&emsp;@keyframes animationname {
+              <br>&emsp;keyframes-selector {css-styles;}
+              <br>&emsp;keyframes-selector {css-styles;}
+              <br>&emsp; }</p>
+              <h4 class="code">Example</h4>
+              <p><br>&emsp;@keyframes example {
+                <br>&emsp; 0%   {background-color: red;}
+                <br>&emsp;  25%  {background-color: yellow;}
+                <br>&emsp; 50%  {background-color: blue;}
+                <br>&emsp; 100% {background-color: green;}
+              <br>&emsp; }</p>
+              <p><br>&emsp;element {
+               <br>&emsp; width: 100px;
+                <br>&emsp; height: 100px;
+                <br>&emsp; background-color: red;
+                <br>&emsp; animation-name: example;
+                <br>&emsp; animation-duration: 10s;
+               <br>&emsp;  }</p>
+               <p>In this example we are changing the background color from a red (at 0%) to yellow (at 25%) to a  blue (at 50%) to green (at 75%) and then back to red and started with (at 100%)</p>
+               <button type="button" id="exampleFour" onclick="activateFour()"></button>
+            </section>
+          
+
+      </main>
+      <footer>
+          <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa| <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+          <p id="lastModified"></p>
+
+      </footer>
+      <script src="script/animation.js"></script>
+  </body>
+</html>
+        

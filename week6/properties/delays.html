@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <title>WDD230 CSS Keyframe Animations</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="styles/nomalizes.css">
+        <link rel="stylesheet" href="../styles/properties.css">
+        <link rel="stylesheet" href="styles/lager.css">
+    </head>
+    <body>
+        <header id="container">
+            <h1>WDD 230 Week 6</h1>
+
+        </header>
+        <nav>
+        <div class="navbar">
+            <a href="../presentation.html">Video</a>
+            <div class="subnav">
+                <button class="subnavbtn">Basics<i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a class="articve" href="basics.html">Animations</a>
+                    <a href="element.html">Element</a> 
+                    <a href="bing-end.html">Bing/End</a>
+                    <a href="../multiple-style.html">Multiple Style</a>
+                    <a href="../duration.html">Duration</a>
+                </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">Properties <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="../properties/delays.html">Delays</a>
+                      <a href="../properties/repeat.html">Repeat</a>
+                      <a href="../properties/directions.html">Directions</a>
+                      <a href="../properties/timing.html">Timing</a>
+                      <a href="../properties/fill.html">Fill</a>
+                      <a href="../properties/shorthand.html">Shorthand</a>
+                    </div>
+                  </div>
+                    <div class="subnav">
+                      <a href="../properties/example.html">Example</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <main>
+        <section>
+            <h2>CSS Keyframe Animations</h2>
+            <hr>
+            <h3>Delays</h3>
+            <P class="txt">The animation-delay property specifies a delay for the start of an animation.
+               The animation-delay value is defined in seconds (s) or milliseconds (ms).
+            To add a delay to the start of the animation, it  done by adding the property name "animation-delay" to the element's selector. Negative values can be entered and will cause the animation to start as if it had already been active for x number of seconds.</P>
+            <h4 class="codetx">CSS Syntax</h4>
+            <p class="txt"><br>&emsp;animation-delay: time|initial|inherit;</p>
+            <h4>Example</h4>
+            <p class="tt"><br>&emsp;div {
+               <br>&emsp; width: 100px;
+                <br>&emsp; height: 100px;
+                <br>&emsp; background: red;
+                <br>&emsp; position: relative;
+                <br>&emsp; animation: mymove 5s 1;
+                <br>&emsp; animation-delay: -2s;
+                <br>&emsp; }
+              
+              <br>&emsp; @keyframes mymove {
+              <br>&emsp; from {left: 0px;}
+              <br>&emsp; to {left: 200px;}
+              <br>&emsp; }</p>
+            <p>In this example the animetion will start after a 2-second delay from left and come back to the start point.</p>
+            <div class="delay"></div>
+        </section>
+        <h4>Example</h4>
+        <p class="tw"><br>&emsp;p {
+           <br>&emsp; animation-duration: 3s;
+          <br>&emsp;  animation-name: slidein;
+        <br>&emsp;  }
+          
+         <br>&emsp; @keyframes slidein {
+           <br>&emsp; from {
+            <br>&emsp;  margin-left: 100%;
+            <br>&emsp;  width: 300%;
+          <br>&emsp;  }
+          
+           <br>&emsp; to {
+            <br>&emsp;  margin-left: 0%;
+            <br>&emsp;  width: 100%;
+           <br>&emsp; }
+         <br>&emsp; }</p>
+         <p>In this example the style for the <p> element specifies that the animation should take 3 seconds to execute from start to finish</p>
+         <div class="p"></div>
+        <section>
+        </section>
+        </main>
+        <footer>
+            <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa| <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="lastModified"></p>
+
+        </footer>
+        <script src="script/animation.js"></script>
+    </body>
+</html>
