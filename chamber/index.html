@@ -24,7 +24,7 @@
         <div class="content">
             <div id="mode">🌙</div>
         <header>
-            <img  class="logo" src="../chamber/images/logo.png" alt=" site logo">
+            <img  class="logo" src="../chamber/images/logo.webp" alt=" site logo">
             <nav class="menu">
                 <ul id="side-nav">
                <li><a href="index.html">Home</a></li>
@@ -54,7 +54,12 @@
                         <p>Email-Us:Brumahood@gmail.com</p>
                         <p>Contact:+(88)67799900</p>
                        </div>
-                <img class="hero" src="../chamber/images/hero.jpg" alt="hero image">
+                <!--<img class="hero" src="../chamber/images/hero.webp" alt="hero image">-->
+                <picture>
+                    <source media="(min-width: 1000px)" srcset="images_medium-rwdd230.webp">
+                    <source media="(min-width: 500px)" srcset="images_small-rwdd230.webp">
+                    <img src="images/large-rwdd230-org.webp" alt="here for this week" width="1500">
+                  </picture>
                 <div class='button-box'>
                     <a class='book' href="#">Join Us</a>
                 </div>
@@ -74,6 +79,10 @@
                         <p>Humidity:10%</p>
                         <p>Wind: 13 km/h</p>
                     </div>
+                      <br>&emsp;<input type="number" id="temp" Temperature  placeholder="Enter Celcius ">
+                      <br>&emsp;<input type="number" id="windSpeed" Wind Speed placeholder="Enter speed per hour">
+                      <br>&emsp;<button type="button" id="click" onClick="doInputOutput();">Wind Chill</button>
+                        <div id="output"></div>
                 </section>
                 <section>
                     <div class="foot"><p>BrumaHood Chamber Site Commerce</p>
@@ -97,6 +106,7 @@
         </footer>  
         </div>
     </div>
+    <script src="../chamber/script/windchill.js"></script>
     <script src="../chamber/script/getDate.js"></script>
     </body>
 </html>
