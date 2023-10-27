@@ -1,60 +1,38 @@
 
-@media screen and (min-width: 40em) {
-  .side-nav {
-    display: flex;
-  }
-  .side-nav li {
+/* Show the menu button only on screens smaller than 468px */
+@media only screen and (max-width: 468px) {
+  #menu-button {
     display: block;
-    flex: 1 1 100%;
   }
   .side-nav a {
-    text-align: center;
-  }
-  #burger-menu {
-    display: none;
-  }
+    display: block;
+    padding: 0.75rem;
+    text-align: right;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    transition: 5ms;
 }
-/* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
-#burger-menu {
+.side-nav a:hover, .side-nav a:active {
+  color: beige;
+  background-color: #000;
+}
+#burger-menu::before {
+content: "≡";
+}
+nav {
+background-color: #eee;
+}
+.open li {
   display: block;
-}
 
 }
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-
-#burger-menu {
-  display: block;
-}
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-/* Hide the hamburger button on tablets */
-#burger-menu {
-display: none;
-}
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-/*Hide the hamburger button on desktop */
-#burger-menu {
-display: none;
-}
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-/* Hide the hamburger button on larger devices */
-#burger-menu {
+#burger-menu.open::before {
+  content: "X";
+}  
+.side-nav  li{
   display: none;
-}
 
+}
 }
 

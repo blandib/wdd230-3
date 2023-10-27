@@ -41,7 +41,7 @@ img {
    
 }
 
-nav {
+/*nav {
     background-color: grey;
     color: rgb(11, 9, 9);
     height: 40px;
@@ -51,10 +51,10 @@ nav {
     margin:  0 auto;
     max-width: 1000px;
       
-  }
+  }*/
 
 
-  nav a {
+  /*nav a {
     display: flex;
     text-align: center;
     color: black;
@@ -65,6 +65,40 @@ nav {
     
         
       
+  }*/
+ /* nav {
+  
+    display: flex;
+      justify-content: center;
+      /*height: 100px;*/
+      /*text-align: center;
+      
+  }
+  nav a {
+      background-color: grey;
+      color: rgb(11, 9, 9);
+      /*height: 40px;*/
+      /*justify-content: space-around;
+      /*margin:  0 auto;
+       
+     
+        
+    }*/
+  nav li {
+    list-style: none;
+    display: inline;
+    
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    
+    
+  }
+  nav a {
+    height: 100px;
+    
+    text-align: center;
+    justify-content: space-around;
   }
 
   nav a:hover {
@@ -72,18 +106,23 @@ nav {
     color: white;
     
   }
-#burger-menu {
+  /* Hide the menu button by default */
+#menu-button {
+    display: none;
+  }
+  
+/*#burger-menu {
     display: block;
 	text-decoration: none;
 	padding: 1px;
 	background-color: grey;
 	color: #000;
-}
-.side-nav  li{
+}*/
+/*.side-nav  li{
     display: none;
 
-}
-.side-nav a {
+}*/
+/*.side-nav a {
     display: block;
     padding: 0.75rem;
     text-align: right;
@@ -91,8 +130,8 @@ nav {
     color: #000;
     font-weight: 600;
     transition: 5ms;
-}
-.side-nav a:hover, .side-nav a:active {
+}*/
+/*.side-nav a:hover, .side-nav a:active {
     color: beige;
     background-color: #000;
 }
@@ -108,7 +147,7 @@ nav {
 }
 #burger-menu.open::before {
     content: "X";
-}  
+} */ 
  
 
 h2 {  
@@ -186,8 +225,9 @@ iframe {
 	margin: 20px auto;
 	position: relative;
 	border: 1px solid rgba(0,0,0,.1);
-	height: 600px;
-    padding: 20px;
+	height: 602px;
+    padding: 15px;
+    
 }
 
 .hero img {
