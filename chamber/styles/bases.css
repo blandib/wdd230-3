@@ -135,3 +135,124 @@ footer {
     
     
 }
+
+/*discoverpage*/
+#sidebar  {
+    height: 2500px;
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+  h1, h2, h3, h4, h5 {
+    background-color: #d785da;
+    border-radius: 10px;
+    
+  }
+  h4, h5, h3 {
+    height: 50px;
+  }
+  h6 {
+    font-size: 15px;
+  }
+  .gallery-img {
+    /* Add some margin and border for styling */
+       /*margin: 10px;*/
+       border: 5px solid #e40808;
+       box-shadow: 5px 5px 10px #e40808;
+       transition: box-shadow 0.3s;
+  }
+  .container {
+    position: relative;
+    width: 20%;
+    padding: 10px;
+    
+  }
+  .zoom {
+    display: block;
+    width: 500px;
+    height: auto;
+    
+  }
+  .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 110%;
+    right: 20%;
+    -webkit-transform: translate(-20%, -20%);
+    -ms-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+    text-align: center;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #d785da;
+    overflow: hidden;
+    width: 500px;
+    height: 380px;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+  .container:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  .flip:hover {
+    -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+
+  }
+  .shake:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .box-shadow {
+     /* Set the width and height of the images */
+  width: 400px;
+  height: 300px;
+  /* Add some margin and padding around the images */
+  margin: 10px;
+  padding: 10px;
+  }
+.box-shadow:hover {
+    /* Add a box-shadow effect with the following values */
+    /* horizontal offset: 10px, vertical offset: 10px, blur radius: 15px, spread radius: 5px, color: black */
+    box-shadow: 10px 10px 15px 5px black;
+    /* Add a transition effect to make the shadow appear smoothly */
+    transition: box-shadow 0.3s;
+  }
+  .select {
+    /* Set the transition duration to 0.5 seconds */
+  transition: 0.5s;
+  }
+  .select:hover {
+    /* Rotate them by 15 degrees */
+  transform: rotate(15deg);
+  }

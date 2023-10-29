@@ -1,6 +1,6 @@
 
 
-@media only screen and (min-width : 320px) {
+/*@media only screen and (min-width : 320px) {
  #side-nav {
     display: block;
  }
@@ -28,7 +28,7 @@
  
 }
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+/*@media only screen and (min-width : 480px) {
 #side-nav{
     display: block;
     
@@ -48,7 +48,7 @@
 	color: #000;
 }
 }/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+/*@media only screen and (min-width : 768px) {
 #side-nav {
     display: block;
 }
@@ -66,16 +66,53 @@
             display: none;
         }
         
-        }
+        }*/
             
+/*discoverpage*/
+@media screen and (min-width: 400px) {
+    .grid-container {
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+  }
+/* Use a media query to target devices with a width of 600px or less */
+@media only screen and (max-width: 400px) {
+    /* Do not apply any effect to the images in the mobile view */
+    .gallery img:hover {
+      box-shadow: none;
+    }
+  }
+  
+  /* Use a media query to target devices with a width of more than 600px */
+  @media only screen and (min-width: 801px) {
+    /* Apply a box-shadow effect to the images when the user hovers over them */
+    .gallery img:hover {
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      /* Optionally, you can also add some transition for a smooth effect */
+      transition: box-shadow 0.3s;
+    }
+  }
 
+/* Use a media query to apply the effect only on screens larger than 768px */
+@media only screen and (min-width: 1068px) {
+    /* Add a hover selector to the images */
+    .gallery img:hover {
+      /* Add a box-shadow effect with the following values */
+      /* horizontal offset: 10px, vertical offset: 10px, blur radius: 15px, spread radius: 5px, color: black */
+      box-shadow: 10px 10px 15px 5px black;
+      /* Add a transition effect to make the shadow appear smoothly */
+      transition: box-shadow 0.3s;
+    }
+  }
 
-
-
-
-
-
-
+/* Use a media query to disable the effect for mobile devices */
+@media (max-width: 600px) {
+    /* Select all the images in the gallery */
+    .select {
+      /* Reset the transform property to none */
+      transform: none;
+    }
+  }
 
 
 
