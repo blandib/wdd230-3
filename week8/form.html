@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- This start file was build by Paul Cheney  -->
-    <title>HTML5 Start Site</title>
+    <title>Form Build</title>
     <meta name="author" content="Blandine Bukasa">
     <meta name="description" content="Fill Me In">
 
@@ -13,3 +13,61 @@
     <link href="../week8/styles/base.css" rel="stylesheet">
     <link href="../week8/styles/large.css" rel="stylesheet">
 </head>
+<body>
+    <header>
+      <h1>Form Build</h1>
+    </header>
+    
+        <nav id="burger-menu" >
+            <ul class="side-nav">
+               <li><a href="../index.html" class="active">Home</a></li>
+               <li><a href="../chamber/index.html">Chamber</a></li>
+               <li><a href="#">Site Plan</a></li>
+               <li><a href="http://byui.edu/" target="_blank">BYU-Idaho</a></li>
+               <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng" target="_blank">My favorite scripture </a></li>
+            </ul>
+       
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+        <fieldset>
+        <label id="top">Fisrt Name*<input type="text" name="fname" required></label>
+        <label for="pwd">Password:<input type="text" id="pwd" name="password" pattern="[a-zA-Z -]{8,}" placeholder="At least Eigth characters long. No numbers."></label>
+		<label for="password1" id="con">Confirm your password<input type="text" id="pwd1" name="password1"></label>
+        <label class="top"> Email* <input type="email" name="email" placeholder="name@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+        </fieldset>
+            <label for="r"> 9.1 average based on 254 reviews. </label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+<label>Rating</label>
+<div class="stars" >
+	<input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+	<input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+	<input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+	<input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+	<input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+</div>
+
+<input type="submit" class="submitBtn" value="My Info">
+
+    </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="../week8/script/form.js"></script>
+</body>
