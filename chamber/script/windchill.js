@@ -115,3 +115,29 @@ if (lastVisit === 0) {
   const message = `You last visited ${differenceInDays} ${differenceInDays !== 2 ? 'day' : 'days'} ago.`;
   //sidebarContentArea.textContent = message;
 }
+//------------form page
+ // get the current date and time in ISO format
+ var now = new Date().toISOString();
+ // get the hidden input element by id
+ var timestamp = document.getElementById("timestamp");
+ // set the value of the input element to the current date and time
+ timestamp.value = now;
+
+ const form = document.querySelector("#form");
+const input = document.querySelector("#title");
+const output = document.querySelector("#output");
+
+const re = /^(?:\d{3}|\(\d{3}\))([-/.])\d{3}\1\d{4}$/;
+
+function testInfo(titleInput) {
+  const ok = re.exec(titleInput.value);
+
+  output.textContent = ok
+    ? `Thanks, your Business/Organization is ${ok[0]}`
+    : `${titleInput.value} Business/Organization must have seven Charater!`;
+}
+
+form.addEventListener("Join", (event) => {
+  event.preventDefault();
+  testInfo(input);
+});

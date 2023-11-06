@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <meta property="og:title" content="The City of Gold"/> <!--change the title-->
+        <meta property="og:type" content="Johannesburg City"/> <!--change content-->
+        <meta property="og:image" content="https://twisht.com/resources/uploads/blogs/2019/08/FaY2NztZl7cGuk91ybWP5Rn4dHT6wAgL_blog_image_lg.jpg" /><!--Change the content-->
+        <meta property="og:url" content="https://blandib.github.io/wdd230-3"/>
+        <title>Blandine Bukasa - BrumaHood Chamber Site Commerce</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="../chamber/styles/bases.css">
+        <link rel="stulesheet" href="../chamber/styles/large.css">
+        <link rel="stulesheet" href="../chamber/styles/medium.css">
+        <link rel="icon" href="../favicon.ico">
+        <link rel="canonical" href="https://twisht.com/blog/experience-5-of-the-best-in-jozi-south-africa"><!--change the content!-->
+        <link rel="stylesheet" href="../styles/nomalizes.css">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        -->
+    </head>
+    <body> 
+        <div class="content">
+            <div id="mode">🌙</div>
+        <header>
+            <img  class="logo" src="../chamber/images/logo.webp" alt=" site logo">
+            <nav class="menu">
+                <ul id="side-nav">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="discover.html"><!--Page2-->Discover</a></li>
+               <li><a href="chamber-site-plan.html">chamber-site-plan</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+            </nav>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="../chamber/images/facebook-icon-960x1024.jpg" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="../chamber/images/x.png" alt="X icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="../chamber/images/R n.png" alt="instagram icon">
+                </a>
+                <a href="https://LinkedIn.com" target="_blank">
+                </a>
+                <img src="../chamber/images/R.png" alt="LinkedIn icon"> 
+            </div>
+        </header>
+        <main class="side">
+            <form id="form" method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Join BrumaHood</legend>
+                <label id="top"> Fisrt Name* <input type="text" name="fname" required></label>
+                <label id="top"> last Name* <input type="text" name="lname" required></label>
+
+              <!--  <p id="hint">Only alpha characters and spaces are allowed.Minimum of seven characters.</p>-->
+                <label id="top" for="title">Title or position:<input type="text"  name="title" pattern="[A-Za-z-\s]{7,}" required></label>
+                <label id="top"> phone <input type="tel" name="phone" placeholder="12343432133" required></label>
+                <label id="top"> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required></label>
+                <label id="top"  for="business_name">Business/Organization's Name:<input type="text"  name="business_name" required><br></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select a membership level</legend>
+                    <div>
+                      <label id="level" for="np"> <input type="radio"  name="membership" value="np">NP Membership (no fee)</label>
+                    </div>
+                    <div>
+                      <label id="velel" for="bronze"> <input type="radio"  name="membership" value="bronze">Bronze Membership</label>
+                    </div>
+                    <div>
+                      <label id="level" for="silver"> <input type="radio" name="membership" value="silver">Silver Membership</label>
+                    </div>
+                    <div>
+                      <label id="level" for="gold"><input type="radio"  name="membership" value="gold">Gold Membership</label>
+                    </div>
+                  </fieldset>
+                  <fieldset>
+                    <legend>Description of your business/organization's </legend>
+                    <p><label id="descrip" for="description">Description:</label></p>
+                    <textarea id="descrip" name="description" rows="4" cols="50">In BrumaHood Chamber of Commerce your will learn to grow your business and develop in Professional fields of business and much more</textarea>
+                    <br>
+                    <input id="timestamp"type="hidden" name="timestamp" >
+                    <input id="submit-btn" type="submit" value="Join">
+                    <p id="output"></p>
+                  </fieldset>
+            </form>
+            <div class="table">
+              <div>
+                    <h1>Membership Levels</h1>
+                         <h2 class="mbs">Level</h2>
+                         <h2 class="mbs">Cost</h2>
+                        <h2 class="mbs">Benefits</h2>
+              </div>
+                        <div>
+                         <p class="eve">Basic<br>R99.99/month Access to special events and training</p>
+                         <p class="eve">Premium<br>R149.99/month Basic benefits plus advertising on the home page and event discounts</p>
+                        <p class="eve">Platinum <br>R199.99/month Premium benefits plus exclusive offers and invitations</p>
+                    </div>
+          </div>
+        </main>
+            <footer>
+            <div>
+            <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa</p>
+             <p id="lastModified"></p>
+            </div>
+        </footer>  
+        </div>
+    </div>
+    <script src="../chamber/script/windchill.js"></script>
+    <script src="../chamber/script/getDate.js"></script>
+    </body>
+</html>
