@@ -1,37 +1,52 @@
-{
-    "familyName": "Mbaya",
-    " date the family moved into the ward": "10-1-2019",
-    "Number of people in the family (number of records)": "4",
-    "Visited by bishopric?": "3",
-    " family members": 
+{  
+    "ward-name": "Orange Grove",
+    "family-name": "Mbaya",
+    "adiministrat-date": 2018,
+    "number-of-people-in-family": "4",
+    "Visited-by-bishopric": "0",
+    "family-members": [
         {
             "name": "Yam's Mbaya",
-            "age": "34" ,
+            "age": 34,
+            "dender": "Male",
+            "birthday": "14-02-1988",
+            "person-rule-in-family": [
+                "father",
+                "Two children"
+                
+            ]
+        },
+        {
+            "name": "blamdine Mbaya",
+            "age": 26,
+            "gender": "female",
+            "birthday":"15-12-1996",
+            "person-rule-in-family": [
+                "mother",
+                "two children"
+                
+            ]
+        },
+        {
+            "name": "Bienvenu",
+            "age": 13,
             "gender": "Male",
-            "birthday": "14-2-1988"
-    
-        
-     },
-     {
-      "name": "Blandine Mbaya",
-      "age" : "26",
-       "gender": "femmel",
-       "birthday": "15-12-1996"
-     
-     }
-     {
-        "name": "Bienvenu Mbaya",
-      "age" : "13",
-       "gender": "Male",
-       "birthday": "21-12-2009",
-     
-     },
-     {
-        "name": "Rodriguez Mbaya",
-      "age" : "8",
-       "gender": "Male",
-       "birthday": "10-1-2015"
-     
-      } 
-    }
-    
+            "person-rule-in-family": [
+                "child",
+                "School"
+                
+            ]
+          },
+          {
+              "name": "Rodriguez Mbaya",
+              "age": 28,
+              "gender": "male",
+              "birthday":"10-1-2015",
+              "person-rule-in-family": [
+                  "child",
+                  "School"
+                  
+              ]
+        }
+    ]
+  }
