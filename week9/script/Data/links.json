@@ -1,0 +1,134 @@
+{
+    "lessons": [
+      {
+        "week1": "01",
+        "links": [
+          {
+            "url":"week1/media-query.html",
+            "title":"Media-Query "
+          },
+          {
+            "url":"week1/applied.html",
+            "title":"Applied JavaScript  "
+          }
+        ]
+      }
+    ]
+      }
+      { 
+        "week2": "02",
+        "links": [
+          {
+            "url":"week2/desing-principles.html",
+            "title":"Design Principles "
+          },
+          {
+            "url":"week2/design.html",
+            "title":"Design  "
+          }
+        ]
+      }
+      { 
+        "week3": "03",
+        "links": [
+          {
+            "url":"week3/lazyload.html",
+            "title":"Lazyload "
+          },
+          {
+            "url":"week3/combinators.htlm",
+            "title":"CSS Combinators  "
+          }
+        ]
+      }
+      { 
+        "week4": "04",
+        "links": [
+          {
+            "url":"https://codepen.io/blandib/pen/RwEeOBj",
+            "title":"CSS Pseudo-Classes "
+          },
+          {
+            "url":"https://codepen.io/blandib/pen/YzdamqB",
+            "title":"Pseudo-element  "
+          }
+        ]
+      }
+      { 
+        "week5": "05",
+        "links": [
+          {
+            "url": "week5/bom.html",
+            "title":"BOM Aplication"
+          },
+          {
+            "url":"week5/images/landscape.webp.jpg",
+            "title":"WebP  "
+          }
+        ]
+      }
+      { 
+        "week6": "06",
+        "links": [
+          {
+            "url": "week6-1/responsive-images.html",
+            "title":"Responsive-Images"
+          },
+          {
+            "url":"week6/basics.html",
+            "title":"Week6:Presentation" 
+          }
+        ]
+      }
+      { 
+        "week7": "07",
+        "links": [
+          {
+            "url": "week3/lazyload.html",
+            "title":"LazyLoad"
+          },
+          {
+            "url": "week8/tablebuild.html",
+            "title":"Table Structure and Formatting" 
+          }
+        ]
+      }
+      { 
+        "week8": "08",
+        "links": [
+          {
+            "url": "form-start/index.html",
+            "title":"HTML5 Start Site"
+          },
+          {
+            "url": "week8/form.html",
+            "title":"Form Build" 
+          }
+        ]
+      }
+      { 
+        "week9": "09",
+        "links": [
+          {
+            "url": "week9/prophets.html",
+            "title":"Fetch API"
+          },
+          {
+            "url": "week9/",
+            "title":"" 
+          }
+        ]
+      }
+      { 
+        "week10": "10",
+        "links": [
+          {
+            "url": "week10/",
+            "title":""
+          },
+          {
+            "url": "week10/",
+            "title":"" 
+          }
+        ]
+      }
