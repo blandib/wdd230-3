@@ -1,5 +1,5 @@
 {
-    "lessons": [
+    "weeks": [
       {
         "week1": "01",
         "links": [
@@ -114,8 +114,8 @@
             "title":"Fetch API"
           },
           {
-            "url": "week9/",
-            "title":"" 
+            "url": "week9/prophets.html",
+            "title":"Latter-day Prophets" 
           }
         ]
       }
