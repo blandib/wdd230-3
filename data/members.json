@@ -1,0 +1,113 @@
+{
+    "members": [
+        {
+            "membership-level":  "Gold Membership",
+            "name": "SalesPushy",
+            "experience": 29,
+            "website-URLs": "https://www.SalesPushy.com/",
+            "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/62/b7/2b62b744-ee07-3cc1-0356-434964e46f11/source/512x512bb.jpg",
+            "email": "SalesPushy.co.za",
+            "phone": "+1-234-567-8901",
+            "addresses": "160 Roberts Ave, Kensington",
+            "Product-Industry": [
+                "Sales Training",
+                "Sales Consulting"
+                
+            ]
+            
+            
+        },
+        {
+            "name": " Cloudrevelout",
+            "membership-level":  "Gold Membership",
+            "experience": 39,
+            "email": "Cloudrevelout.co.za",
+            "website-URLs": "https://www.Cloudrevelout.com/",
+            "image": "https://infolink-exp.com/wp-content/uploads/2013/09/saas-cloud-vs-tradicional-products-support-705x705.jpg",
+            "phone": "+11-234-567-8901",
+            "addresses": "160 Roberts Ave, Bedforview",
+            "Product-Industry": [
+                "Cloud Storage",
+                "IT Company"
+                
+            ]
+            
+        },
+        {
+            "name": " Formony",
+            "experience": 100,
+            "membership-level":  "Gold Membership",
+            "email": "Formony.co.za",
+            "website-URLs": "https://www.formony.com/",
+            "image": "https://www.logolynx.com/images/logolynx/5a/5af5557868b5d4d1ebc7e3bd6e9ec2e2.jpeg",
+            "phone": "+24-234-567-8901",
+            "addresses": "7 Leicester Rd, Bedford Gardens, Germiston, 2007",
+            "Product-Industry": [
+                "Manufacturing",
+                ""
+                
+            ]
+        },
+        {
+            "name": "Mediciny",
+            "membership-level":  "Silver Membership",
+            "experience": 39,
+            "email": "Mediciny@gmail.com",
+            "website-URLs": "https://www.Mediciny.com/",
+            "image": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/wd1myd5jpsvsffyq9eud",
+            "phone": "88-234-567-8901",
+            "addresses": "338 Main Reef Rd, Denver, Johannesburg, 2094",
+            "Product-Industry": [
+                "Healthcare",
+                "Telemedicine"
+                
+            ]
+            
+        },
+        {
+            "name": "Seekiny",
+            "membership-level":  "Silver Membership",
+            "experience": 39,
+            "email": "Seekiny@gmail.com",
+            "website-URLs": "https://www.Seekiny.com/",
+            "image": "https://www.rwchamber.com/uploads/1/1/1/1/111193245/business-directory_orig.png",
+            "phone": "88-251-567-8901",
+            "addresses": "1, 17 Fortune St, City Deep, Johannesburg South, 2001",
+            "Product-Industry": [
+                "Business Directory",
+                "Search Engine"
+                
+            ]
+        },
+        {
+            "name": "Dwellysmith",
+            "membership-level":  "Bronze Membership",
+            "experience": 39,
+            "email": "Dwellysmith@gmail.com",
+            "website-URLs": "https://www.Dwellysmith.com/",
+            "image": "https://t3.ftcdn.net/jpg/01/98/12/94/160_F_198129499_AXy3qcqDDA9XowZ0sAy9cJ1vUO3kMUyM.jpg",
+            "phone": "88-251-567-8933",
+            "addresses": "3 Gowie Rd, The Gables, Johannesburg, 2022",
+            "Product-Industry": [
+                "Real Estate",
+                ""
+                
+            ]
+        },
+        {
+            "name": "SwipyWire",
+            "membership-level":  "Bronze Membership",
+            "experience": 39,
+            "email": "Swipywire@gmail.com",
+            "website-URLs": "https://www.Swipywire.com/",
+            "image": "https://www.logolynx.com/images/logolynx/43/430c24140e27cc339243336e80da9fe5.png",
+            "phone": "88-251-231-8933",
+            "addresses": "277 Southern Klipriviersberg Rd, South Hills, Johannesburg South, 2197",
+            "Product-Industry": [
+                "eCommerce",
+                "Technology",
+                " App Developer"
+            ]
+        }
+    ]
+}

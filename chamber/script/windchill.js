@@ -141,3 +141,41 @@ form.addEventListener("Join", (event) => {
   event.preventDefault();
   testInfo(input);
 });
+
+/*//-------Using the JSON data source, display the member information on the page------//
+// Create a function that takes the data and returns a table element
+function createTable(data) {
+  // Create a table element
+  let table = document.createElement("table");
+  // Create a table header row
+  let header = document.createElement("tr");
+  // Create and append table header cells
+  let headers = ["Name", "membership level", "experience", "email", "website URLs", "image","phone","addresses","Product/Industry"];
+  for (let h of headers) {
+    let cell = document.createElement("th");
+    cell.textContent = h;
+    header.appendChild(cell);
+  }
+  // Append the header row to the table
+  table.appendChild(header);
+  // Loop through the data and create table rows
+  for (let member of data.members) {
+    // Create a table row element
+    let row = document.createElement("tr");
+    // Create and append table cells for each member property
+    for (let prop in member) {
+      let cell = document.createElement("td");
+      cell.textContent = member[prop];
+      row.appendChild(cell);
+    }
+    // Append the row to the table
+    table.appendChild(row);
+  }
+  // Return the table element
+  return table;
+}
+
+// Get the element where the table will be displayed
+let container = document.getElementById("container");
+// Call the createTable function and append the result to the container
+container.appendChild(createTable(data));*/

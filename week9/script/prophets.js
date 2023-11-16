@@ -22,13 +22,13 @@ const displayProphets = (prophets) => {
     fullName.textContent = prophet.name + '' + prophet.fullname + '' + prophet.birthdate +'' + prophet.birthplace; // fill in the blank
     // Build the image portrait by setting all the relevant attributes
     portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${Portrait}`); // fill in the blank
+    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${portrait}`); // fill in the blank
     portrait.setAttribute('loading', 'lazy');
     portrait.setAttribute('width', '340');
     portrait.setAttribute('height', '440');
 
     // Append the section(card) with the created elements
-    card.appendChild(fullname); //fill in the blank
+    card.appendChild(fullName); //fill in the blank
     card.appendChild(portrait);
 
     cards.appendChild(card);
