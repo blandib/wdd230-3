@@ -32,7 +32,7 @@ modeButton.addEventListener("click", () => {
 
 
 //frech json------------------------/
-const dataURL = 'https://blandib.github.io/wdd230-3/data/members.json';
+const dataURL = 'https://blandib.github.io/wdd230-3/chamber/members.json';
 const listDiv = document.querySelector('.list-view');
 const cardDiv = document.querySelector('.grid-view');
 
