@@ -71,7 +71,7 @@ fetch(dataURL)
 		experience.textContent = `${business.experience}`
 		Industry.textContent = `${business.Industry}`
 
-        website-URLs.setAttribute("href", business.website);
+        website.setAttribute("href", business.website);
         image.setAttribute("src", business.images);
         image.setAttribute("alt", `Image of ${business.name}`);
         image.setAttribute("loading", "lazy");

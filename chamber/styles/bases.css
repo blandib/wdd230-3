@@ -385,6 +385,7 @@ form input#submit-btn {
   .grid-view section img{
 	  display: block;
 	  width: 50%;
+    height: 60%;
 	  margin: 0 auto;
 	  padding: 2rem;
   }
@@ -430,11 +431,9 @@ form input#submit-btn {
 	  margin-bottom: 0rem;
   }
   
-  .dire {
-    
-  }
+  
   .directoryPage {
    max-width: 940px;
-   height: 3500px;
+   height: 4000px;
    margin: 0 auto;
   }
