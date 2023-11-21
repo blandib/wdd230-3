@@ -348,7 +348,7 @@ form input#submit-btn {
   h2.dirHeading {
 	  font-family: 'Arial Narrow';
 	  font-size: x-large;
-	  color:rgb(90, 90, 81);
+	  color: #e40808;
 	  text-align: center;
 	  padding: 1.5rem;
 	  margin-bottom: 3rem;
@@ -380,14 +380,20 @@ form input#submit-btn {
 	  border-radius: 1rem;
 	  border: #e40808 2px solid;
 	  color: #000101;
-   min-height: fit-content;
-  }
+      /*display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 5px;
+      align-items: center;*/
+    }
+   
+  
   .grid-view section img{
-	  display: block;
+	  
 	  width: 50%;
     height: 60%;
 	  margin: 0 auto;
 	  padding: 2rem;
+   
   }
   .grid-view section hr {
 	  color: black;
@@ -434,6 +440,7 @@ form input#submit-btn {
   
   .directoryPage {
    max-width: 940px;
-   height: 4000px;
+   height: 4200px;
    margin: 0 auto;
   }
+ 

@@ -4,11 +4,11 @@
         "week1": "01",
         "links": [
           {
-            "url":"week1/media-query.html",
+            "url":"https://blandib.github.io/wdd230-3/week1/media-query.html",
             "title":"Media-Query "
           },
           {
-            "url":"week1/applied.html",
+            "url":"https://codepen.io/blandib/pen/XWygpyP",
             "title":"Applied JavaScript  "
           }
         ]
@@ -19,12 +19,12 @@
         "week2": "02",
         "links": [
           {
-            "url":"week2/desing-principles.html",
+            "url":"https://blandib.github.io/wdd230-3/week2/design-principles.html",
             "title":"Design Principles "
           },
           {
-            "url":"week2/design.html",
-            "title":"Design  "
+            "url":"https://blandib.github.io/wdd230-3/week2/design.html",
+            "title":"Design principles "
           }
         ]
       }
@@ -32,11 +32,11 @@
         "week3": "03",
         "links": [
           {
-            "url":"week3/lazyload.html",
-            "title":"Lazyload "
+            "url":"https://codepen.io/blandib/pen/abPGbKW",
+            "title":"Responsive Navigation "
           },
           {
-            "url":"week3/combinators.htlm",
+            "url":"https://blandib.github.io/wdd230-3/week3/combinators.html",
             "title":"CSS Combinators  "
           }
         ]
@@ -58,11 +58,11 @@
         "week5": "05",
         "links": [
           {
-            "url": "week5/bom.html",
+            "url": "https://blandib.github.io/wdd230-3/week5/bom.html",
             "title":"BOM Aplication"
           },
           {
-            "url":"week5/images/landscape.webp.jpg",
+            "url":"https://blandib.github.io/wdd230-3/week5/images/landscape.webp.jpg",
             "title":"WebP  "
           }
         ]
@@ -71,11 +71,11 @@
         "week6": "06",
         "links": [
           {
-            "url": "week6-1/responsive-images.html",
+            "url": "https://blandib.github.io/wdd230-3/week6-1/responsive-images.html",
             "title":"Responsive-Images"
           },
           {
-            "url":"week6/basics.html",
+            "url":"https://blandib.github.io/wdd230-3/week6/basics.html",
             "title":"Week6:Presentation" 
           }
         ]
@@ -84,11 +84,11 @@
         "week7": "07",
         "links": [
           {
-            "url": "week3/lazyload.html",
+            "url": "https://blandib.github.io/wdd230-3/week3/lazyload.html",
             "title":"LazyLoad"
           },
           {
-            "url": "week8/tablebuild.html",
+            "url": "https://blandib.github.io/wdd230-3/week8/tablebuild.html",
             "title":"Table Structure and Formatting" 
           }
         ]
@@ -97,11 +97,11 @@
         "week8": "08",
         "links": [
           {
-            "url": "form-start/index.html",
+            "url": "https://blandib.github.io/wdd230-3/form-start/index.html",
             "title":"HTML5 Start Site"
           },
           {
-            "url": "week8/form.html",
+            "url": "https://blandib.github.io/wdd230-3/week8/form.html",
             "title":"Form Build" 
           }
         ]
@@ -110,11 +110,11 @@
         "week9": "09",
         "links": [
           {
-            "url": "week9/prophets.html",
-            "title":"Fetch API"
+            "url": "https://blandib.github.io/wdd230-3/data/link.html",
+            "title":"Lesson Menu"
           },
           {
-            "url": "week9/prophets.html",
+            "url": "https://blandib.github.io/wdd230-3/week9/prophets.html",
             "title":"Latter-day Prophets" 
           }
         ]
