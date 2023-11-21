@@ -374,12 +374,13 @@ form input#submit-btn {
   /*--------Grid View-------------*/
   .grid-view section {
 	
-	  background-color: rgba(148, 192, 183, 0.5);
+	  background-color: #f0e370;
 	  margin: 1rem;
 	  padding: 2.5rem 1.5rem;
 	  border-radius: 1rem;
-	  border: #888 2px solid;
+	  border: #e40808 2px solid;
 	  color: #000101;
+   min-height: fit-content;
   }
   .grid-view section img{
 	  display: block;
@@ -404,19 +405,19 @@ form input#submit-btn {
 	  margin: 1rem;
 	  padding: 2.5rem 1.5rem;
 	  border-radius: 1rem;
-	  border: rgb(2, 22, 7) 2px solid;
-	  color: rgb(12, 74, 74);
+	  border: #e40808 2px solid;
+	  color: #fff;
   }
   .list-view section:nth-last-of-type(even) {
 	  
-	  background-color: rgba(164, 170, 160, 0.5);
+	  background-color: #d785da;
 	  font-weight: 100;
 	  color:black
 	  
   }
   .list-view section:nth-last-of-type(odd) {
 	  
-	background-color: rgba(148, 192, 183, 0.5);
+	background-color: #d785da;
 	font-weight: 100;
 	color:black
 	
@@ -429,4 +430,11 @@ form input#submit-btn {
 	  margin-bottom: 0rem;
   }
   
-  
+  .dire {
+    
+  }
+  .directoryPage {
+   max-width: 940px;
+   height: 3500px;
+   margin: 0 auto;
+  }

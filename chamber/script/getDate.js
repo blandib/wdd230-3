@@ -57,13 +57,21 @@ fetch(dataURL)
         let phone = document.createElement('p');
         let address = document.createElement('p');
         let website = document.createElement('a');
+		let email = document.createElement('a');
+		let membershiplevel = document.createElement('p');
+		let experience = document.createElement('p');
+		let Industry = document.createElement('p');
 
         h2.textContent = `${business.name}`
         phone.textContent = `${business.phone}`
         address.textContent = `${business.address}`
         website.textContent = `${business.website}`
-        
-        website.setAttribute("href", business.website);
+        email.textContent= `${business.email}`
+        membershiplevel.textContent = `${business.membershiplevel}`
+		experience.textContent = `${business.experience}`
+		Industry.textContent = `${business.Industry}`
+
+        website-URLs.setAttribute("href", business.website);
         image.setAttribute("src", business.images);
         image.setAttribute("alt", `Image of ${business.name}`);
         image.setAttribute("loading", "lazy");
@@ -76,6 +84,10 @@ fetch(dataURL)
         media_card.appendChild(phone);
         media_card.appendChild(address);
         media_card.appendChild(website);
+		media_card.appendChild(email);
+		media_card.appendChild(membershiplevel);
+		media_card.appendChild(experience);
+		media_card.appendChild(Industry);
             
         cardDiv.appendChild(media_card);
     }
@@ -87,17 +99,29 @@ fetch(dataURL)
         let phone = document.createElement('p');
         let address = document.createElement('p');
         let website = document.createElement('p');
+		let email = document.createElement('p');
+		let membershiplevel = document.createElement('p');
+		let experience = document.createElement('p');
+		let Industry = document.createElement('p')
 
         h2.textContent = business.name
         phone.textContent = business.phone
         address.textContent = business.address
         website.textContent = business.website
+		email.textContent = business.email
+		membershiplevel.textContent = business.membershiplevel
+		experience.textContent = business.experience
+		Industry.textContent = business.Industry
         
        
         media_card.appendChild(h2);
         media_card.appendChild(phone);
         media_card.appendChild(address);
         media_card.appendChild(website);
+		media_card.appendChild(email);
+		media_card.appendChild(membershiplevel);
+		media_card.appendChild(experience);
+		media_card.appendChild(Industry);
             
         listDiv.appendChild(media_card);
     }
