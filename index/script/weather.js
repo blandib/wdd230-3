@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const weatherIcon = document.querySelector('#weather-icon');
     const captionDesc = document.querySelector('figcaption');
     
-    const url = "https://api.openweathermap.org/data/2.5/weather?lat=35.65&lon=-97.&appid=6f890d0a59271c9f5a3cf6919b33d215&units=imperial";
+    const url = "https://api.openweathermap.org/data/2.5/weather?lat=-26.&lon=28.&appid=fa6e9e90720a8c3b98462891aa284eb7=imperial";
   
     apiFetch(url).then(data => displayResults(currentTemp, weatherIcon, captionDesc, data));
   });
@@ -62,3 +62,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     return capArr.join(" ");
   }
+  //-26.193702349414345, 28.027528952552423
