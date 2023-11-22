@@ -204,6 +204,7 @@ main .card p {
 }
 iframe {
     width: 900px;
+    text-align: center;
 }
 
  footer {

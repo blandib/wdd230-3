@@ -63,30 +63,37 @@
                     <li><a href="week9/prophets.html">Week9:Latter-day Prophets</a>|<a href="data/links.json">json</a>|<a href="data/link.html">Menu</a>|<a href="chamber/members.json">Members</a></li>
                     <li><a href="#">Week10:</a></li>
                     <li><a href="#">Week11:</a></li>
-                    <li><a href="#">Week12:</a></li>
+                    <!--<li><a href="#">Week12:</a></li>
                     <li><a href="#">Week13:</a></li>
-                    <li><a href="#">Week14:</a></li>
+                    <li><a href="#">Week14:</a></li>-->
                 </ul>
                 </div>
             </section>
-            <section class="card">
-                <div><h3>Information</h3></div>
-                <div>
-                <p>Johnnasburg, South Africa</p>
-                <p id="weather">Johannesburg 🌞 27℃ </p>
+            <section class="card4">
+                <h3 class="card-headline">Information</h3>
+                <div class="weather">
+                 <!-- <img src="/week1/images/weather-icons (1).webp" alt="weather">-->
+                  <div id="weather-info"></div>
+                </div>
+                <p>🌞Today  temperature</p>
+                <p>Johannesbursg Weather:  <span id="current-temp"></span></p>  <p>°<span>C</span></p> 
+                <figure>
+                  <img id="weather-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather icons">
+                  <figcaption></figcaption>
+                </figure>
+                <P></P>
                 <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
                 </div>
             </section>
-            </div>
         </main>
         <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d28640.295100089374!2d28.0966849!3d-26.1954783!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x1e950f699133ac77%3A0x3d4c6361e64ac977!2sThe%20Rubberizing%20Agency!3m2!1d-26.1880074!2d28.1105076!4m5!1s0x1e950e092283a09b%3A0x5819c7920a51e60f!2sKensington%20Johannesburg%202101!3m2!1d-26.195478299999998!2d28.0966849!5e0!3m2!1sen!2sza!4v1696017742544!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <footer>
             <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa </p>
             <p id="lastModified"></p>
-
         </footer>
         </div>
         <script src="index/script/getDate.js"></script>
+        <script src="index/script/weather.js"></script>
 
     </body>
 </html>

@@ -4,7 +4,7 @@ async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
     console.log(data);
-    displayLinks(data);
+    displayLinks(data.Links);
   }
   
   //getLinks();
@@ -19,10 +19,10 @@ async function getLinks() {
       let url = document.createElement('a');
       let title = document.createElement('h3');
   
-      h2.textContent = `${week.week} ${week.Links}`;
+      h2.textContent = `${weeks.week} ${weeks.Links}`;
   
-      Links.textContent = `Lesson: ${week.Links}`
-      url.textContent = `Lesson: ${week.Links}`
+      Links.textContent = `Lesson: ${weeks.Links}`
+      url.textContent = `Lesson: ${weeks.Links}`
   
       card.appendChild(h2);
       card.appendChild(Links);
