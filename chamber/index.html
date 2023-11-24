@@ -50,7 +50,7 @@
                 <img src="../chamber/images/R.png" alt="LinkedIn icon"> 
             </div>
         </header>
-        <main>
+        <main class="place">
             <section>
                 <div class="card" id="three"><p>We are investing in category of people enterpreneur, Business men or women, starting new busness bing and your project we are looking  for you<p>
                         <p>Email-Us:Brumahood@gmail.com</p>
@@ -66,49 +66,83 @@
                     <a class='book' href="../chamber/join.html">Join Us</a>
                 </div>
             </section>
-            <div class="grid">
+            <div class="position">
             <section>
                 <div class="card" id="one">
                     <h1> Event</h1>
                     <p>Join us at 10am for the Professional Mentor Programs when you get a chance to learn for the Professional and ask questions relate to your Learning field and much more.</P>
-                </div>
-                </section>
-                <section>
-                    <div class="card" id="two">
-                        <h2>weather</h2>
-                        <p>Johannesburg: ☀️ 32°C </p>
-                        <p>Sunny</p>
-                        <p>Humidity:10%</p>
-                        <p>Wind: 13 km/h</p>
-                    </div>
-                      <br>&emsp;<input type="number" id="temp" Temperature  placeholder="Enter Celcius ">
+                        <section>
+                            
+                            <div class="card" id="two">
+                                <div id="forcastArea">
+                                    <h3>Five Day Forecast</h3>
+                                    <div id="forcastFive">
+                                        <div class="forcastCol">
+                                            <p class="forcastDay"><span id="dayWeek1"></span></p>
+                                            <img id="icon1" src="images/cloud.png" alt="weather image">
+                                            <p class="forcastTemp"><span id="forecast1"></span>&deg;F</p>
+                                        </div>
+                                        <div class="forcastCol">
+                                            <p class="forcastDay"><span id="dayWeek2"></span></p>
+                                            <img id="icon2" src="images/cloud.png" alt="weather image">
+                                            <p class="forcastTemp"><span id="forecast2"></span>&deg;F</p>
+                                        </div>
+                                        <div class="forcastCol">
+                                            <p class="forcastDay"><span id="dayWeek3"></span></p>
+                                            <img id="icon3" src="images/cloud.png" alt="weather image">
+                                            <p class="forcastTemp"><span id="forecast3"></span>&deg;F</p>
+                                        </div>
+                                        <div class="forcastCol">
+                                            <p class="forcastDay"><span id="dayWeek4"></span></p>
+                                            <img id="icon4" src="images/cloud.png" alt="weather image">
+                                            <p class="forcastTemp"><span id="forecast4"></span>&deg;F</p>
+                                        </div>
+                                        <div class="forcastCol">
+                                            <p class="forcastDay"><span id="dayWeek5"></span></p>
+                                            <img id="icon5" src="images/cloud.png" alt="weather image">
+                                            <p class="forcastTemp"><span id="forecast5"></span>&deg;F</p>
+                                        </div>
+                            <div id="banner" class="banner">
+                                <p></p>
+                                <button id="close" class="close">X</button>
+                              </div>
+                        </section>
+                        <section class="info">
+                        <div>
+                        <h4>Wind: 13 km/h</h4>
+                        <br>&emsp;<input type="number" id="temp" Temperature  placeholder="Enter Celcius ">
                       <br>&emsp;<input type="number" id="windSpeed" Wind Speed placeholder="Enter speed per hour">
                       <br>&emsp;<button type="button" id="click" onClick="doInputOutput();">Wind Chill</button>
                         <div id="output"></div>
-                </section>
-                <section>
-                    <div class="foot"><p>BrumaHood Chamber Site Commerce</p>
+                        </div>
+                        </section>
+                        <section>
+                    <div class="foot"><h4>BrumaHood Chamber Site Commerce</h4>
                         <p>15 Linschoten Rd</p>
                         <p>Bruma post: 2026</p>
-                    </div>
-                    <div class="foo">
                         <p>Contact</p>
                         <p>www.Brumahood.co.za</p>
                         <p>+(11)56753690</p>
-                        <p> 📍 Map Location</p>
-                    </div> 
-                </section> 
-               </div>  
+                </section>
+                </div>
+            </section>
+            <section><div class="foo">
+                <h4> 📍 Map Location</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28643.000316396083!2d28.102564079328396!3d-26.184475594470925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950df90ec496b3%3A0x910e961f67c6d27b!2sBruma%2C%20Johannesburg%2C%202198!5e0!3m2!1sen!2sza!4v1700776566572!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+             </section>
+            </div>
                </main>
-            <footer>
-            <div>
+            <footer class="last">
+           <div>
             <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa</p>
              <p id="lastModified"></p>
             </div>
         </footer>  
-        </div>
     </div>
     <script src="../chamber/script/windchill.js"></script>
     <script src="../chamber/script/getDate.js"></script>
+    <script src="../chamber/script/location.js"></script>
     </body>
 </html>

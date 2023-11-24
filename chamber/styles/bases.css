@@ -444,3 +444,55 @@ form input#submit-btn {
    margin: 0 auto;
   }
  
+ five day forcast area 
+#forcastArea {
+	display: none;
+	align-content: center;
+	border: 2px solid #e40808;
+	background: #cacfd4;
+	margin: 15px auto;
+	padding: 15px;
+	overflow: auto;
+}
+#forcastFive {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	border: 1px solid #000;
+	box-shadow: 0 0 20px #000000;
+}
+.forcastCol {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #000;
+	background-color: #d785da;
+}
+.forcastDay {
+	margin: 0;
+	color: #ffffff;
+	background: #e40808;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	font-weight: bold;
+}
+.forcastCol img {
+	padding-top: 10px;
+	max-width: 90%;
+	height:	auto; 
+}
+.forcastTemp {
+	color: #d785da;
+	font-weight: bold;
+}	
+.place  {
+  height: 1800px;
+}
+main .position .forcasArea, main .position .info, main .position .foo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+
+}
