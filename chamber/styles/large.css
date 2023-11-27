@@ -1,72 +1,6 @@
 
 
-/*@media only screen and (min-width : 320px) {
- #side-nav {
-    display: block;
- }
- #side-nav  li{
-    display: none;
-}
-.menu {
-    display: block;
-	text-decoration: none;
-	padding: 1px;
-	background-color: #d785da;
-	color: #000;
-}
-.menu::before {
-	content: "≡";
-}
 
-.open li {
-    display: block;
-
-}
-.menu.open::before {
-    content: "X";
-}  
- 
-}
-/* Extra Small Devices, Phones */ 
-/*@media only screen and (min-width : 480px) {
-#side-nav{
-    display: block;
-    
-}
-#side-nav a:hover, .side-nav a:active {
-    color: #000;
-    background-color: #d785da;
-}
-#side-nav  li{
-    display: none;
-}
-.menu {
-    display: block;
-	text-decoration: none;
-	padding: 1px;
-	background-color: #d785da;
-	color: #000;
-}
-}/* Small Devices, Tablets */
-/*@media only screen and (min-width : 768px) {
-#side-nav {
-    display: block;
-}
-}
-
-
-@media only screen and (min-width : 992px) {
-    #side-nav {
-        display: none;
-    }
-    
-    }
-    @media only screen and (min-width : 1200px) {
-        #side-nav {
-            display: none;
-        }
-        
-        }*/
             
 /*discoverpage*/
 @media screen and (min-width: 400px) {
@@ -114,9 +48,81 @@
     }
   }
 
+/**************************************/
+@media only screen and (min-width: 40em) {
+  /* typography */
+  h1 {
+      font-size: 30px;
+  }
+  h2 {
+      font-size: 25px;
+  }
+  h3, legend {
+      font-size: 20px;
+  }
+  p, label {
+      font-size: 16px;
+  }
+  /* heading */
+  header img {
+      width: 128px;
+  }
+  .headings h1 {
+      font-size: 40px;
+  }
+  /*.moto {
+      font-size: 22px;
+  }
+  /*header navigation */
+.navigation {
+  display: flex;
+}
+.navigation li {
+      flex: 1 1 auto;
+  display: block;
+}
+.navigation li:first-child {
+  display: none;
+  }
+  .navigation a {
+      font-size: 18px;
+  }
+  nav ul {
+      flex-flow: row wrap;
+  }
+  /* footer */
+  footer p {
+      font-size: 20px;
+  }
+  
+  .info {
+      display: grid;
+  }
+  /* five day forcast area */
+  #forcastArea {
+      display: block;
+  }
+  /* article area */
+  .foot {
+      margin: 0 0 5px 15px;
+      width: 40%;
+      float: right;
+  }    */
+  /* contact area */
+  .foo {
+      display: block;
+  }
+ 
+  
+  .containt {
+      flex-direction: row;
+  }
+  
+  
+ 
+}
 
-
-
+  
 
 
 

@@ -24,7 +24,7 @@
     <body>
         <div id="containt">
         <header>
-            <img src="index/images/bb.webp" alt="my picture">
+            <img src="index/images/bb.webp" alt="my picture" loading="lazy">
             <h1>Blandine Bukasa Lusamba</h1>
 
         </header>
@@ -40,9 +40,9 @@
         <main>
                 <div class="hero">
                     <picture>
-                        <source media="(max-width: 400px)" srcset="../index/images/small_kinshasa-DRCongo-Temple.webp">
+                        <source media="(max-width: 400px)" srcset="../index/images/small_kinshasa-DRCongo-Temple.webp" >
                         <source media="(max-width: 960px)" srcset="../index/images/medium_kinshasa-DRCongo-Temple.webp">
-                        <img src="./index/images/large_Kinshasa-DRCongo-Temple.webp" alt="table setting" style="width: auto;">
+                        <img src="./index/images/large_Kinshasa-DRCongo-Temple.webp" alt="table setting" loading="lazy"  style="width: auto;">
                     </picture>
                 </div>
                 <h4 class="herolabel">kinshasa-DRCongo-Temple</h4>
@@ -78,7 +78,7 @@
                 <p>🌞Today  temperature</p>
                 <p>Johannesbursg Weather:  <span id="current-temp"></span></p>  <p>°<span>C</span></p> 
                 <figure>
-                  <img id="weather-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather icons">
+                  <img id="weather-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather icons" loading="lazy">
                   <figcaption></figcaption>
                 </figure>
                 <P></P>
@@ -94,6 +94,7 @@
         </div>
         <script src="index/script/getDate.js"></script>
         <script src="index/script/weather.js"></script>
+        
 
     </body>
 </html>

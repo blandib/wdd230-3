@@ -60,7 +60,7 @@ if (temp <= tempLimit && wind > windLimit) {
 }
 
 // 1️⃣ Initialize display element variable
-/*const visitsDisplay = document.querySelector(".visits");
+const visitsDisplay = document.querySelector(".visits");
 
 // 2️⃣ Get the stored VALUE for the numVisits-ls KEY in localStorage if it exists. If the numVisits KEY is missing, then assign 0 to the numVisits variable.
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;

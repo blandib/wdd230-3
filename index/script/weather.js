@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const url = "https://api.openweathermap.org/data/2.5/weather?lat=-26.&lon=28.&appid=6f890d0a59271c9f5a3cf6919b33d215&units=imperial";
   
     apiFetch(url).then(data => displayResults(currentTemp, weatherIcon, captionDesc, data));
-  });
+});
   
   
   

@@ -1,4 +1,4 @@
-* {
+/** {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -23,5 +23,77 @@
 
 .list #container:nth-child(even) {
 	background-color: #bed;
-}
+}*/
 /*****************************************************************************************/
+/*@media only screen and (min-width: 40em) {
+    /* typography */
+    /*h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3, legend {
+        font-size: 20px;
+    }
+    p, label {
+        font-size: 16px;
+    }
+    /* heading */
+    /*header img {
+        /*width: 128px;
+    /*}
+    .headings h1 {
+        font-size: 40px;
+    }
+    /*.moto {
+        font-size: 22px;
+    }
+    /*header navigation */
+	/*.navigation {
+		display: flex;
+	}
+	.navigation li {
+        flex: 1 1 auto;
+		display: block;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+    .navigation a {
+        font-size: 18px;
+    }
+    nav ul {
+        flex-flow: row wrap;
+    }
+    /* footer */
+    /*footer p {
+        font-size: 20px;
+    }
+    
+    .info {
+        display: grid;
+    }
+    /* five day forcast area */
+    /*#forcastArea {
+        display: block;
+    }
+    /* article area */
+    /*.foot {
+        margin: 0 0 5px 15px;
+        width: 40%;
+        float: right;
+    }    */
+    /* contact area */
+    /*.foo {
+        display: block;
+    }
+   
+    
+    .containt {
+        flex-direction: row;
+    }
+    
+    
+   
+}*/
