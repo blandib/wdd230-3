@@ -25,9 +25,9 @@
 	background-color: #bed;
 }*/
 /*****************************************************************************************/
-/*@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 40em) {
     /* typography */
-    /*h1 {
+    h1 {
         font-size: 30px;
     }
     h2 {
@@ -40,18 +40,19 @@
         font-size: 16px;
     }
     /* heading */
-    /*header img {
-        /*width: 128px;
-    /*}
+    header img {
+        width: 128px;
+    }
     .headings h1 {
         font-size: 40px;
     }
-    /*.moto {
+    .social {
         font-size: 22px;
+        display: block;
     }
     /*header navigation */
-	/*.navigation {
-		display: flex;
+	.navigation {
+		display: block;
 	}
 	.navigation li {
         flex: 1 1 auto;
@@ -64,28 +65,32 @@
         font-size: 18px;
     }
     nav ul {
-        flex-flow: row wrap;
+        display: block;
     }
     /* footer */
-    /*footer p {
+    footer p {
         font-size: 20px;
+    }
+    main #forcastArea{
+        width: 100%;
     }
     
     .info {
-        display: grid;
+        display: block;
     }
     /* five day forcast area */
-    /*#forcastArea {
+    #forcastArea {
         display: block;
     }
     /* article area */
-    /*.foot {
+    foot {
         margin: 0 0 5px 15px;
         width: 40%;
         float: right;
-    }    */
+        display: block;
+    }    
     /* contact area */
-    /*.foo {
+    .foo {
         display: block;
     }
    
@@ -96,4 +101,4 @@
     
     
    
-}*/
+}

@@ -218,6 +218,7 @@ footer {
     align-items: center;
     text-align: center;
     height: 100px;
+    display: flex;
     
     
 }
@@ -578,7 +579,7 @@ form input#submit-btn {
 	font-weight: bold;
 }
 .place {
-  height: 2200px;
+  height: 2620px;
 }
 .foo {
   text-align: center;
@@ -594,4 +595,50 @@ body {
 }
 .card-headline {
   border: 1px solid #eee;
+}
+/*------------------compliting site*/
+.card4 {
+  display: grid;
+  grid-template-columns: auto auto ;
+  gap: 10px;
+  box-shadow: 10px 10px 15px solid #e40808;
+  border-color: #000101;
+  padding: 10px;
+  margin: 0;
+ border-radius: 10px;
+ border: 1px solid #000000;
+ border-radius: 50px;
+}
+.foo iframe {
+  text-align: center;
+}
+
+.foot h4 {
+  width: 250px;
+}
+.weather {
+  box-shadow: 10px 10px 5px solid #000000;
+  background-color: #d785da;
+}
+.card-headline {
+  border-radius: 50px;
+}
+.foo h4 {
+  border-radius: 50px;
+}
+.member-spo, .member-info {
+  border-radius: 50px;
+
+}
+.info h4 {
+  border-radius: 50px;
+  background-color: #d785da;
+}
+.forcastArea h3 {
+  border-radius: 50px;
+}
+.m-info{
+  box-shadow: 10px 10px 15px solid #eee;
+  background-color: #d785da;
+  border-radius: 30px;
 }
