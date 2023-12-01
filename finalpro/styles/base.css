@@ -1,0 +1,302 @@
+.body {
+  max-width: 3000px;
+  max-height: 3500px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  color: #ffffff;
+  
+}
+.scoot {
+  color: #ffffff;
+}
+nav {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-around;
+  background-color: #dddddd;
+  text-decoration: none;
+  
+}
+nav  li, a{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+nav a {
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  
+}
+nav a:hover {
+  background-color: yellowgreen;
+  color: blue;
+  text-decoration: none;
+}
+.hero-img {
+  width: 100%;
+  border: 3px solid #f44336;
+  box-shadow: 15px 15px 20px #000000;
+}
+.hero-text {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+.Current-Weather {
+  position: absolute;
+  bottom: 65%;
+  right: 16px;
+  border: 1px solid #f44336;
+  background-color: blue;
+  box-shadow: 5px 5px 10px #000000;
+}
+.container {
+  background-color: #ffffff;
+  text-align: center;
+}
+.second-hero {
+  float: right;
+}
+.action .p {
+  height: 500px;
+  background-color: #dddddd;
+  padding: 0;
+  margin:  auto;
+ 
+}
+.action {
+  border: 5px solid #f44336;
+  box-shadow:  10px 10px 15px #000000;
+  padding: 10px;
+  margin: 0 auto;
+}
+h1 {
+    color: blue;
+    font-family: Arial;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+.button {
+    background-color: blue;
+    border: 5px solid #f44336;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    bottom: 180px;
+    left: -20%;
+    position: relative;
+    box-shadow: 5px 5px 10px #000000;
+}
+.r {
+  font-size: 18px;
+  color: blue;
+}
+.card {
+  display: grid;
+  grid-template-columns: 300px 300px 1fr;
+ gap: 20px;
+  background-color: #dddddd;
+  border: 3px solid #f44336;
+  box-shadow: 10px 10px 15px;
+}
+.h3 {
+  font-size: 18px;
+  color: blue;
+}
+strong {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  
+}
+.max{ 
+    border-collapse:collapse;
+    border: 1px solid #000000; 
+    margin-left: auto;
+    margin-right: auto;
+    
+     text-align: center;
+    }
+    
+    td .style {
+    text-align: center;
+    }
+    td .styl {
+    text-align: center;
+    }
+    td .stye {
+    text-align: center;
+    }
+    td .st {
+    text-align: center;
+    }
+    td .ta{
+    text-align: center
+    }
+    td .text{
+    text-align: center;
+    }
+    td .tex {
+    text-align: center;
+    }
+    td .te {
+    text-align: center
+    }
+    td .align {
+    text-align: center;
+    }
+    td .alig {
+    text-align: center;
+    }
+    td .ali {
+    text-align: center;
+    }
+    td .center {
+    text-align: center;
+    }
+    td .cente {
+    text-align: center;
+    }
+    td .cent {
+    text-align: center
+    }
+    td .cen {
+    text-align: center;
+    }
+    td .table {
+    text-align: center;
+    }
+    td .tabl {
+    text-align: center;
+    }
+    td .tab {
+    text-align: center;
+    }
+    td .tab1 {
+    text-align: center;
+    }
+    td .text1 {
+    text-align: center;
+    }
+    td .text3 {
+    text-align: center;
+    }
+      td .text2 {
+        text-align: center;
+      }
+      
+      table {
+     border-collapse:collapse;
+      border-collapse: collapse;
+      width: 50%;
+       
+    }
+    .action {
+      text-align: center;
+    }
+    .alert {
+      padding: 20px;
+      background-color: #f44336;
+      color: white;
+      margin-bottom: 15px;
+  }
+
+  .closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  .closebtn:hover {
+      color: black;
+}
+table {
+  background-color: #f44336;
+  box-shadow: 15px 15px 20px #000000;
+}
+.card2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  border: 2px #f44336;
+  box-shadow: 10px 10px 15px #000000;
+  text-align: center;
+  background-color: #dddddd;
+ padding: 20px;
+  
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  height: 100px;
+  color: #ffffff;
+}
+.left {
+  text-align: center;
+  box-shadow: 10px 10px 15px;
+  border: 2px solid #f44336;
+}
+.left .first {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+}
+.right {
+  text-align: center;
+  box-shadow: 10px 10px 15px;
+  border: 2px solid #f44336;
+}
+.right h3 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+}
+.center {
+  text-align: center;
+  box-shadow: 10px 10px 15px;
+  border: 2px solid #f44336;
+}
+.center h4 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+}
+.card4 {
+  text-align: center;
+  box-shadow: 10px 10px 15px;
+  border: 2px solid #f44336;
+}
+address {
+  text-align: center;
+  box-shadow: 10px 10px 15px;
+  border: 2px solid #f44336;
+}
+.visit {
+  text-align: center;
+  box-shadow: 10px 10px 15px;
+  border: 2px solid #f44336;
+}
