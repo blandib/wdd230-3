@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+        <meta property="og:title" content="The City of Gold"/>
+        <meta property="og:type" content="Johannesburg City"/>
+        <meta property="og:image" content="https://twisht.com/resources/uploads/blogs/2019/08/FaY2NztZl7cGuk91ybWP5Rn4dHT6wAgL_blog_image_lg.jpg" />
+        <meta property="og:url" content="https://blandib.github.io/wdd230-3"/>
+        <title>Blandine Bukasa - WDD 230 - Web Frontend Development</title>
+        <meta name="author" content="Blandine Bukasa">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stulesheet" href="styles/larger.css">
+        <link rel="icon" href="favicon.webp">
+        <link rel="canonical" href="https://twisht.com/blog/experience-5-of-the-best-in-jozi-south-africa">
+        <link rel="stylesheet" href="styles/nomalizes.css">
+    </head>
+    <body>
+      <div class="body">
+        <header>
+          <img src="../finalpro/images/logo_200x200.webp" alt="logo" loading="lazy" width="100px">
+          <h1 class="scoot">Scoots</h1>
+
+        </header>
+        <nav>
+            <a href="../finalpro/index.html">Home</a>
+            <a href="../finalpro/rentals.html">Rentals</a></li>
+            <a href="../finalpro/reservations.html">Reservations</a></li>
+            <a href="../finalpro/contact.html">Contact</a>
+            <a href="../data/prices.json">json</a>
+          
+        </nav>
+        <main>
+            <div class="reserva">
+            <img class="images" src="../finalpro/images/bigstock-Chen-Rio-beach-Cozumel-island-224841949.webp" alt="cozumel-island" loading="lazy">
+            <h1 class="detail">Booking Information</h1>
+            <form method="get" action="booking.html">
+                <fieldset>
+                    <legend>Period</legend>
+                <div>
+                  <label class="top" for="date">Date:<input type="date" id="date" name="date" required></label>
+                  
+                </div>
+                <div>
+                  <label class="top" for="period">Period:</label>
+                  <select id="period" name="period" required>
+                    <option value="hourly">Hourly</option>
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                  </select>
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Rental Type</legend>
+                <div>
+                  <label class="top" for="rental_type">Rental Type:</label>
+                  <select id="rental_type" name="rental_type" required>
+                    <option value="Jeep">Jeep</option>
+                    <option value="Honda Pioneer ">Honda Pioneer </option>
+                    <option value="scooter">Scooter</option>
+                  </select>
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Cleint Details</legend>
+                <div>
+                  <label class="top" for="number">Number of Rentals:<input type="number" id="number" name="number" min="1" max="10" required></label>
+                  
+                </div>
+                <div>
+                  <label class="top" for="phone">Phone Number:<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required></label>
+                 
+                </div>
+                <div>
+                  <label for="name">Name:</label>
+                  <label class="top"> Fisrt Name* <input type="text" name="fname" required></label>
+                  <label class="top"> last Name* <input type="text" name="lname" required></label>
+                </div>
+                <div>
+                  <label for="email">Email:<input type="email" name="email" placeholder="Someone@gmail.com" required></label>
+                  
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Country</legend>
+                <div>
+                  <label class="top" for="state">Home State or Country</label>
+                  <select id="country" name="country" required>
+                    <option value="Algeria ">Algeria </option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Australia ">Australia </option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Belgium">Belgium </option>
+                    <option value="Burkina Faso">Burkina Faso</option>
+                    <option value=" Canada"> Canada</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="China">China</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value=" Djibouti"> Djibouti</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Eswatini">Eswatini</option>
+                    <option value="France">France </option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="India">India </option>
+                    <option value="Japan">Japan</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Libya "> Libya</option>
+                    <option value="Morocco">Morocco</option>
+                    <option value="North Korea">North Korea </option>
+                    <option value="Poland Portugal">Poland Portugal</option>
+                    <option value=" Qatar"> Qatar</option>
+                    <option value="Romania  "> Romania </option>
+                    <option value="Seychelles ">Seychelles </option>
+                    <option value="South Africa">South Africa </option>
+                    <option value="Taiwan ">Taiwan </option>
+                    <option value="United Kingdom (UK)">United Kingdom (UK)</option>
+                    <option value="United States of America (USA)"> United States of America (USA)</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Yemen">Yemen </option>
+                    <option value="Zambia">Zambia</option>
+                  </select>
+                  
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Cruise Line (if applicable)</legend>
+                <div>
+                  <label class="top" for="cruise">Cruise Line (if applicable):<input type="text" id="cruise" name="cruise"></label>
+                  
+                </div>
+                <div>
+                  <label class="top" for="comments">Special Accommodations/Comments:</label>
+                  <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                </div>
+                <div>
+                  <input type="submit" value="booking">
+                
+                </div>
+                </fieldset>
+              </form>
+            </div>
+            <div class="right">
+                <h3>Rental Services Agreements</h3>
+                <p>A $50 security deposit is required to confirm reservations.</p>
+               <p>A valid drivers license is required in hand at the time of rental.</p>
+               <p>No one under the age of 12 years of age are allowed to ride on the scooters.</p>
+               <p>Fuel charge is not included.</p>
+               <p> Unlimited mileage.</p>
+               <p> Liability insurance is included.</p>
+               <p> Damage insurance is available for purchase.</p>
+               <p> Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</p>
+               <p> Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</p>
+               <p> Rentals may be returned to either physical location.</p>
+            </div>
+            
+        </main>
+          
+          <footer>
+          <div class="social">
+              <a href="https://facebook.com" target="_blank">
+                  <img src="../chamber/images/facebook-icon-960x1024.jpg" alt="fb icon" loading="lazy">
+              </a>
+              <a href="https://twitter.com" target="_blank" >
+                  <img src="../chamber/images/x.png" alt="X icon" loading="lazy">
+              </a>
+          </div>          
+            <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa </p>
+            <p id="lastModified"></p>
+          </footer>
+      </div>
+        </div>   
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+           <script src="../finalpro/script/weather.js"></script>
+           <script src="../finalpro/script/temperature.js"></script> 
+           <script src="../finalpro/script/getdata.js"></script>  
+    </body>
+</html>

@@ -15,7 +15,7 @@ async function getPricesData() {
       let FullDay = document.createElement('p');
       
   
-      //h2.textContent = `${price.HalfDay} ${price.FullDay} `;
+      
   
       HalfDay.textContent = `Half Day: ${price.HalfDay}`
       FullDay.textContent = `Full Day: ${price.FullDay}`

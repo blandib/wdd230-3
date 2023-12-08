@@ -11,6 +11,7 @@ header {
   justify-content: center;
   background-color: blue;
   color: #ffffff;
+ 
   
 }
 .scoot {
@@ -65,6 +66,8 @@ nav a:hover {
 }
 .second-hero {
   float: right;
+  box-shadow: 5px 5px 10px #000000;
+  border: 1px solid #f44336;
 }
 .action .p {
   height: 500px;
@@ -109,117 +112,51 @@ p {
   font-size: 18px;
   color: blue;
 }
-.card {
+/*.card {
   display: grid;
   grid-template-columns: 300px 300px 1fr;
  gap: 20px;
   background-color: #dddddd;
   border: 3px solid #f44336;
   box-shadow: 10px 10px 15px;
+}*/
+.img1 {
+  float: left;
+  box-shadow: 5px 5px 10px  #000000;
+  border: 1px solid #f44336;
+
+}
+.left {
+  height: 450px;
+  padding: 30px;
+}
+.img2 {
+  float: right;
+  box-shadow: 5px 5px 10px  #000000;
+  border: 1px solid #f44336;
+}
+.center {
+  height: 500px;
+  padding: 30px;
+  
+  top: 30%;
 }
 .h3 {
   font-size: 18px;
   color: blue;
 }
-strong {
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
-  
-}
-.max{ 
-    border-collapse:collapse;
-    border: 1px solid #000000; 
-    margin-left: auto;
-    margin-right: auto;
-    
-     text-align: center;
-    }
-    
-    td .style {
-    text-align: center;
-    }
-    td .styl {
-    text-align: center;
-    }
-    td .stye {
-    text-align: center;
-    }
-    td .st {
-    text-align: center;
-    }
-    td .ta{
-    text-align: center
-    }
-    td .text{
-    text-align: center;
-    }
-    td .tex {
-    text-align: center;
-    }
-    td .te {
-    text-align: center
-    }
-    td .align {
-    text-align: center;
-    }
-    td .alig {
-    text-align: center;
-    }
-    td .ali {
-    text-align: center;
-    }
-    td .center {
-    text-align: center;
-    }
-    td .cente {
-    text-align: center;
-    }
-    td .cent {
-    text-align: center
-    }
-    td .cen {
-    text-align: center;
-    }
-    td .table {
-    text-align: center;
-    }
-    td .tabl {
-    text-align: center;
-    }
-    td .tab {
-    text-align: center;
-    }
-    td .tab1 {
-    text-align: center;
-    }
-    td .text1 {
-    text-align: center;
-    }
-    td .text3 {
-    text-align: center;
-    }
-      td .text2 {
-        text-align: center;
-      }
-      
-      table {
-     border-collapse:collapse;
-      border-collapse: collapse;
-      width: 50%;
-       
-    }
-    .action {
-      text-align: center;
-    }
-    .alert {
-      padding: 20px;
-      background-color: #f44336;
-      color: white;
-      margin-bottom: 15px;
-  }
 
-  .closebtn {
+.action {
+    text-align: center;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.closebtn {
       margin-left: 15px;
       color: white;
       font-weight: bold;
@@ -228,15 +165,12 @@ strong {
       line-height: 20px;
       cursor: pointer;
       transition: 0.3s;
-  }
+}
 
   .closebtn:hover {
       color: black;
 }
-table {
-  background-color: #f44336;
-  box-shadow: 15px 15px 20px #000000;
-}
+
 .card2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -299,4 +233,186 @@ address {
   text-align: center;
   box-shadow: 10px 10px 15px;
   border: 2px solid #f44336;
+}
+/**********************/
+.max{ 
+    border-collapse:collapse;
+    border: 1px solid #000000; 
+    margin-left: auto;
+    margin-right: auto;
+    
+     text-align: center;
+    }
+    
+td .style, td .styl,  td .stye, td .st , td .ta, td .text, td .tex, td .te, td .align, td .alig, td .ali, td .centert, td .cente, td .cent, td .cen, td .table, td .tabl, td .tab, td .tab1, td .text1, td .text3, td .text2  {
+    text-align: center;
+} 
+      
+table {
+  border-collapse:collapse;
+  border-collapse: collapse;
+  width: 50%;
+  border-collapse: collapse;
+       
+}
+strong {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  
+}
+table {
+  background-color: #f44336;
+  box-shadow: 15px 15px 20px #000000;
+  
+}
+.scoo h1 {
+  color: #ffffff;
+}
+.hotel {
+  width: 95%;
+  padding: 30px;
+  border: 4px solid #f44336;
+  box-shadow: 15px 15px 20px #000000;
+  text-align: center;
+}
+.road {
+  float: left;
+  border: 4px solid #f44336;
+  box-shadow: 15px 15px 20px #000000;
+  width: 600px;
+  
+}
+.h3 {
+  text-align: center;
+  font-size: 18px;
+}
+.div {
+  height: 500px;
+  padding: 30px;
+}
+.ren {
+  text-align: center;
+  color: blue;
+  font-size: 18px;
+}
+/******************************/
+.images {
+  width: 100%;
+  height: 1500px;
+  border: 5px;
+  box-shadow: 10px 10px 15px #000000;
+}
+form {
+  position: absolute;
+  bottom: -130%;
+  right: 20px;
+  border: 1px solid #f44336;
+  box-shadow: 5px 5px 10px #000000;
+  padding: 50px;
+  margin: 0 auto;
+}
+.detail {
+  position: absolute;
+  top: 45%;
+  right: 20px;
+  color: #000000;
+  
+  
+}
+form fieldset {
+  margin: 1rem 0;
+  border: 1px solid #f44336;
+  border-radius: 10px;
+  padding: .1rem 2%;
+}
+form legend {
+  color: blue;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+form label.top, form div {
+  display: block;
+  padding-top: .1rem;
+  color: #9c2c13;
+  font-size:  .8rem;
+}
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: flex;
+  font-size: 1rem;
+  border: solid 1px #f44336;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #000000;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);
+}
+form label {
+  display: flex;
+  padding: .75rem 0;
+  color: #555;
+
+}
+form input.submitBtn {
+  border: none;
+  background-color: #9c2c13;
+  color: #fff;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem;
+  width: 96%;
+  max-width: 20rem;
+}
+form label.top input:required {
+  border-left: #f44336 solid 6px;
+}
+form label.top input:required:valid{
+  border-left: blue solid 6px;
+}
+/******************************/
+.all {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 1px solid #f44336;
+}
+div li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+}
+.us {
+  border: 1px solid #f44336;
+  box-shadow: 5px 5px 10px #000000;
+  border-radius: 5px;
+}
+.map {
+  border: 1px solid #f44336;
+  box-shadow: 5px 5px 10px #000000;
+  border-radius: 10px;
+}
+.from label {
+  display: block;
+  padding-top: .3rem;
+  color: #9c2c13;
+  font-size:  .9rem;
+  
+  
+}
+.from input {
+  
+  font-size: 1rem;
+  border: solid 1px #f44336;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #000000;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);
+}
+.coz-img {
+  border:  5px solid #f44336;
+  box-shadow: 10px 10px 15px #f44336;
+  border-radius: 10px;
 }
