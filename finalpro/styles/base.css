@@ -42,6 +42,44 @@ nav a:hover {
   color: blue;
   text-decoration: none;
 }
+/*************************************/
+nav {
+	background-color: #f2be54;
+}
+.navigation {
+	max-width: 80em;
+	list-style: none;
+	background-color: #f2be54;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	font-size: 16px;	
+	color: #000000;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.responsive li {
+	display: block;
+}
+nav a:hover {
+	background-color: #153e5c;
+	color: #ffffff;
+}
+.active {
+	background-color: #cacfd4;
+	border-left: 4px solid #153e5c;
+	border-right: 4px solid #153e5c;
+}
 .hero-img {
   width: 100%;
   border: 3px solid #f44336;

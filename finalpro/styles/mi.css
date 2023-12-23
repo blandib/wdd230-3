@@ -1,0 +1,52 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 40em) {
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+        flex: 1 1 auto;
+		display: block;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+    .navigation a {
+        font-size: 18px;
+    }
+    nav ul {
+        flex-flow: row wrap;
+    }
+    /*fromt*/
+    header, nav, main, footer {
+        max-width: 64em;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+  nav ul {margin-left: 2%;}
+  nav ul li {width: auto;}
+  nav ul li:first-child a {border-left: 1px solid #777;}
+  nav ul li:last-child a {border-right: 1px solid #777;}
+  nav ul li a{padding: .5rem 1rem;}
+
+
+/*----------- MAIN --------------*/
+
+
+
+/*----------- FOOTER --------------*/
+
+} /* end of media query */
+
+/*-----------main------------*/
+form label.sbs {
+  padding: .4rem 0;
+}
