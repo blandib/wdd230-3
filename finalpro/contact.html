@@ -10,25 +10,26 @@
   <title>Blandine Bukasa - WDD 230 - Web Frontend Development</title>
   <meta name="author" content="Blandine Bukasa">
   <link rel="stylesheet" href="styles/base.css">
-  <link rel="stulesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/small.css">
   <link rel="icon" href="favicon.webp">
   <link rel="canonical" href="https://twisht.com/blog/experience-5-of-the-best-in-jozi-south-africa">
-  <link rel="stylesheet" href="styles/nomalizes.css">
+  <link rel="stylesheet" href="../form-start/styles/normalize.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <img src="../finalpro/images/logo_200x200.webp" alt="logo" loading="lazy" width="100px">
-      <h1 class="scoot">Scoots</h1>
+  <div id="scootsPage">
+    <p>Don't miss out on this amazing deal.!
+    <br>Reserve your spot today!
+</p> 
+</div>
+<header>
+        <img src="../finalpro/images/logo_200x200.webp" alt="logo" loading="lazy" width="100px">
+        <section class="headings"> 
+         <h1>Scoots</h1>
+            <div class="moto">Reach Out to Us! We Are Here for you!!
+</div>
+</header>
 
-    </header>
-   <!-- <nav>
-        <a href="../finalpro/index.html">Home</a>
-        <a href="../finalpro/rentals.html">Rentals</a></li>
-        <a href="../finalpro/reservations.html">Reservations</a></li>
-        <a href="../finalpro/contact.html">Contact</a>
-        <a href="../data/prices.json">json</a>     
-    </nav>-->
     <nav >
           
       <ul class="navigation">
@@ -38,36 +39,35 @@
         <li><a href="../finalpro/rentals.html">Rentals</a></li>
         <li><a href="../finalpro/reservations.html">Reservations</a></li>
         <li><a href="../finalpro/contact.html">Contact</a></li>
-        <li><a href="../data/prices.json">Json</a></li>
+        
     </ul>
     </nav>
     <img class="coz-img" src="../finalpro/images/cozumel_xcaret_park.jpg" alt="people on the sea" loading="lazy">
-    <main class="contact">
-      
-      
-      <p>If you have any questions or comments, please feel free to contact us using the information below or the form on this page.</p>
+    <main class="contact"> 
+      <p class="concern">If you have any questions or comments, please feel free to contact us using the information below or the form on this page.</p>
       <div class="all">
       <div class="us">
-      <h2>Contact Us</h2>
-      <ul>
+      <h2 class="contact-us">Contact Us</h2>
+      <ul class="adddress">
           <li>Phone: +52 987 872 0833</li>
           <li>Email: info@cozumel.com</li>
-          <li>Address: Av. Rafael E. Melgar 551, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico</li>
+          <li> <br> Av. Rafael E. Melgar 551, Centro, 77600 
+            <br> San Miguel de Cozumel, Q.R., Mexico</li>
       </ul>
+      <div class="from3">
+        <form class="form-contact" action="../finalpro/submit.html" method="get">        
+          <h3>Please fill out the form below and we will get back to you as soon as possible.</h3>
+        <label  for="name">Name:<input type="text" id="name" name="name" required><br></label>       
+        <label  for="email">Email: <input type="email" id="email" name="email" required><br></label>
+        <label  for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Contact">
+    </form>  
       </div>
-        <div class="from">
-          <form action="/contact" method="get">        
-            <h3>Please fill out the form below and we will get back to you as soon as possible.</h3>
-          <label  for="name">Name:<input type="text" id="name" name="name" required><br></label>       
-          <label  for="email">Email: <input type="email" id="email" name="email" required><br></label>
-          <label  for="comment">Comment:</label>
-          <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br>
-          <input type="submit" value="Contact">
-      </form>  
-        </div>
+      </div>
         <div class="map" >     
-      <h3>Google Map</h3>
-      <p>We have two locations on Cozumel: one in the downtown area and one near the airport. You can use the map below to find directions to either of them.</p>
+      <h3 class="google-h3">Google Map</h3>
+      <p class="google-p">We have two locations on Cozumel: one in the downtown area and one near the airport. You can use the map below to find directions to either of them.</p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.637030615453!2d-86.946960684602!3d20.51063898625472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e4f9a8c6a7a0d%3A0x9f6a0a7b7f5f9c0!2sCozumel!5e0!3m2!1sen!2smx!4v1617881203441!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>        
         </div>
       </div>
