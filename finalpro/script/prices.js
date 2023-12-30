@@ -1,57 +1,34 @@
-const dataURL = '';
+const url = 'https://blandib.github.io/wdd230-3/data/prices.json';
+async function getPricesData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.table(data.prices);
+    displayPrices(data.prices);
+  }
+  
+  const displayPrices = (prices) => {
+    const cards = document.querySelector('div.cards');
+  
+    prices.forEach((price) => {
+      let card = document.createElement('section');
+      let HalfDay = document.createElement('p');
+      let FullDay = document.createElement('p');
+      
+  
+      
+  
+      HalfDay.textContent = `Half Day: ${price.HalfDay}`
+      FullDay.textContent = `Full Day: ${price.FullDay}`
+      
+      
+      
+    card.appendChild(HalfDay);
+    card.appendChild(FullDay);
+    
 
+    cards.appendChild(card);
+});
+}
 
-fetch(dataURL)
-    .then((response) => {
-        return response.json();
-    })
-    .then((jsonObject) => {
-        console.table(jsonObject);
+getPricesData();
 
-        const businesses = jsonObject['prices'];
-        businesses.forEach(displayBusinessesInGrid);
-        businesses.forEach(displayBusinessesInList);
-    });
-
-    function displayBusinessesInGrid(prices) {
-
-        let media_card = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let image = document.createElement('img');
-        let hr = document.createElement('hr');
-        let HalfDay = document.createElement('p');
-        let FullDay = document.createElement('p');
-        
-
-        h2.textContent = `${prices.prices}`
-        FullDay.textContent = `${prices.FullDay}`
-        HalfDay.textContent = `${prices.HalfDay}`
-       
-        media_card.appendChild(h2);
-        media_card.appendChild(hr);
-        media_card.appendChild(HalfDay);
-        media_card.appendChild(FullDay);           
-        cardDiv.appendChild(media_card);
-    }
-
-    function displayPricesInList(prices) {
-
-        let media_card = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let HalfDay = document.createElement('p');
-        let FullDay = document.createElement('p');
-        
-
-        h2.textContent = prices.prices
-        HalfDay.textContent = prices.HalfDay
-        FullDay.textContent = prices.FullDay
-        
-        
-       
-        media_card.appendChild(h2);
-        media_card.appendChild(HalfDay);
-        media_card.appendChild(FullDay);
-        
-            
-        listDiv.appendChild(media_card);
-    }
