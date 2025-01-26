@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const weatherIcon = document.querySelector('#weather-icon');
   const captionDesc = document.querySelector('figcaption');
   
-  const url = "https://api.openweathermap.org/data/2.5/weather?lat=-26.&lon=28.&appid=15b7c720f81f42feaffd4c4fbb44c08b&units=imperial";
+  const url = "https://api.openweathermap.org/data/2.5/weather?lat=-49.&lon=6.&appid=15b7c720f81f42feaffd4c4fbb44c08b&units=imperial";
   apiFetch(url).then(data => displayResults(currentTemp, weatherIcon, captionDesc, data));
 });
 
