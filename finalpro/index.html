@@ -1,161 +1,134 @@
+
 <!DOCTYPE html>
-<html lang="en-US">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
-        <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
-        <meta property="og:title" content="The City of Gold"/>
-        <meta property="og:type" content="Johannesburg City"/>
-        <meta property="og:image" content="https://twisht.com/resources/uploads/blogs/2019/08/FaY2NztZl7cGuk91ybWP5Rn4dHT6wAgL_blog_image_lg.jpg" />
-        <meta property="og:url" content="https://blandib.github.io/wdd230-3"/>
-        <title>Blandine Bukasa - WDD 230 - Web Frontend Development</title>
-        <meta name="author" content="Blandine Bukasa">
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stulesheet" href="styles/larger.css">
-        <link rel="stulesheet" href="styles/small.css">
-        <link rel="icon" href="favicon.webp">
-        <link rel="canonical" href="https://twisht.com/blog/experience-5-of-the-best-in-jozi-south-africa">
-        <link rel="stylesheet" href="../form-start/styles/normalize.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    
-
-    
-    <!--<body>
-
-<div id="scootsPage">
-    <p>Don't miss out on this amazing deal.!
-    <br>Reserve your spot today!
-</p> 
-</div>
-<header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content= "[WDD 230 - Web Frontend Development] [Courses assignment portal] [Blandine Bukasa]">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="The City of Gold"/>
+    <meta property="og:type" content="Johannesburg City"/>
+    <meta property="og:image" content="https://twisht.com/resources/uploads/blogs/2019/08/FaY2NztZl7cGuk91ybWP5Rn4dHT6wAgL_blog_image_lg.jpg" />
+    <meta property="og:url" content="https://blandib.github.io/wdd230-3"/>
+    <title>Blandine Bukasa - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Blandine Bukasa">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="icon" href="favicon.webp">
+    <link rel="canonical" href="https://twisht.com/blog/experience-5-of-the-best-in-jozi-south-africa">
+    <!--<link rel="stylesheet" href="../form-start/styles/normalize.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="scootsPage">
+        <p>Don't miss out on this amazing deal.!
+        <br>Reserve your spot today!
+        </p> 
+    </div>
+    <header>
         <img src="../finalpro/images/logo_200x200.webp" alt="logo" loading="lazy" width="100px">
         <section class="headings"> 
-         <h1>Scoots</h1>
-            <div class="moto">Ready to experience the best of Cozumel? Book your rental now and save 10%!
-</div>
+            <h1>Scoots</h1>
+            <div class="moto">Ready to experience the best of Cozumel? Book your rental now and save 10%!</div>
         </section>        
-</header> -->
-
-<body>
-
-  <div id="scootsPage">
-      <p>Don't miss out on this amazing deal.!
-      <br>Reserve your spot today!
-  </p> 
-  </div>
-  <header>
-          <img src="../finalpro/images/logo_200x200.webp" alt="logo" loading="lazy" width="100px">
-          <section class="headings"> 
-           <h1>Scoots</h1>
-              <div class="moto">Ready to experience the best of Cozumel? Book your rental now and save 10%!
-  </div>
-          </section>        
-  </header
-<nav>
-    <ul class="navigation">
-        <li><a class="ham" href="#">☰ Menu</a></li>
-        <li><a class="active" href="../finalpro/index.html">Home</a></li>
-        <li><a href="../finalpro/rentals.html">Rental</a></li>
-        <li><a href="../finalpro/reservations.html"> Reservations</a></li>
-        <li><a href="../finalpro/contact.html">Contact</a></li>
-       <!-- <li><a href="../data/prices.json">Json</a></li>-->
-       
-    </ul>
-</nav>
-<main>
-    
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li><a class="active" href="../finalpro/index.html">Home</a></li>
+            <li><a href="../finalpro/rentals.html">Rental</a></li>
+            <li><a href="../finalpro/reservations.html">Reservations</a></li>
+            <li><a href="../finalpro/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        
     <div id="heroArea">
-       <img class="hero-img" src="../finalpro/images/The-Top-10-Things-To-Do-on-Cozumel-Mexico-5377.webp" alt="hero img" loading="lazy"
-        srcset="images/The-Top-10-Things-To-Do-on-Cozumel-Mexico-5377.webp  400w,
-                images/The-Top-10-Things-To-Do-on-Cozumel-Mexico-5377.webp 800w,
-                images/The-Top-10-Things-To-Do-on-Cozumel-Mexico-5377.webp 1280w"/>
-                <div id="alert" class="alert">
-                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-                    <p id="alert-text">Don't miss out on this amazing deal.!Reserve your ride today!</p>
-                </div>
-                <div>
-            <section id="weatherSummary">
-                <h3>Currently Weather</h3>
-                <label>Currently:</label> <p><span id="Cozumel"></span></p>
-                <label>Temperature:</label> <p><span id="temperatureCozumel"></span>&deg;F</p>
-                <label>Wind Chill:</label><p><span id="windChill"></span></p>
-                <label>Humidity:</label> <p><span id="humidityCozumel"></span>%</p>
-                <label>Wind Speed:</label> <p><span id="windSpeedCozumel"></span> mph</p>
-            </section>
+      <img class="hero-img" src="../finalpro/images/The-Top-10-Things-To-Do-on-Cozumel-Mexico-5377.webp" alt="hero img" loading="lazy"
+       srcset="images/The-Top-10-Things-To-Do-on-Cozumel-Mexico-5377.webp  400w,
+               images/The-Top-10-Things-To-Do-on-Cozumel-Mexico-5377.webp 800w,
+               images/The-Top-10-Things-To-Do-on-Cozumel-Mexico-5377.webp 1280w"/>
+               <div id="alert" class="alert">
+                   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                   <p id="alert-text">Don't miss out on this amazing deal.!Reserve your ride today!</p>
+               </div>
+               <div>
+           <section id="weatherSummary">
+               <h3>Currently Weather</h3>
+               <label>Currently:</label> <p><span id="Cozumel"></span></p>
+               <label>Temperature:</label> <p><span id="temperatureCozumel"></span>&deg;F</p>
+               <label>Wind Chill:</label><p><span id="windChill"></span></p>
+               <label>Humidity:</label> <p><span id="humidityCozumel"></span>%</p>
+               <label>Wind Speed:</label> <p><span id="windSpeedCozumel"></span> mph</p>
+           </section>
 
 
-           
-    <div id="rental">
-        <h3>Rent a Motor Scooter Today!</h3>
-     <img  class="second-hero" src="../finalpro/images/2007-yamaha-majesty-2.webp" alt="scooter" loading="lazy" >
-       <p class="p">Do you want to explore the city in a fun and convenient way? Rent a motor scooter from us and enjoy the freedom of riding on two wheels. We have a variety of models and sizes to suit your needs and budget. 
-  Whether you need a scooter for a day, a week, or a month, we have the best deals for you.To make a reservation, simply click the button below and fill out the form. 
-  You can choose your preferred pick-up and drop-off locations, dates, and times.
-   You can also select the type of scooter you want and any additional accessories you need. 
-   We will confirm your reservation and send you the payment details via email.Don't miss this opportunity to have an amazing adventure on a motor scooter. 
-  Book now and get ready to hit the road!</p>
+          
+   <div id="rental">
+       <h3>Rent a Motor Scooter Today!</h3>
+    <img  class="second-hero" src="../finalpro/images/2007-yamaha-majesty-2.webp" alt="scooter" loading="lazy" >
+      <p class="p">Do you want to explore the city in a fun and convenient way? Rent a motor scooter from us and enjoy the freedom of riding on two wheels. We have a variety of models and sizes to suit your needs and budget. 
+ Whether you need a scooter for a day, a week, or a month, we have the best deals for you.To make a reservation, simply click the button below and fill out the form. 
+ You can choose your preferred pick-up and drop-off locations, dates, and times.
+  You can also select the type of scooter you want and any additional accessories you need. 
+  We will confirm your reservation and send you the payment details via email.Don't miss this opportunity to have an amazing adventure on a motor scooter. 
+ Book now and get ready to hit the road!</p>
 <a href="../finalpro/reservations.html" class="button">Make a Reservation</a>
-        </div>
-        </div>
-    </div>
-    
-    <div id="rentalInfor">
-        <h3>Rental Information</h3>
-      <h3>Types of Rentals</h3>
-        <figure class="scootImg">
-           <img class="img1" src="../finalpro/images/atv-New-2016-Honda-Pioneer-1000.webp" alt="motor" loading="lazy">
-        </figure>
-        <p> Honda Motor Scooters</p>
-   <p> Honda Metropolitan (49cc) - 1 person</p>
-   <p> Honda Dio (110cc) - 2 person </p>
-   <p> Honda PCX150 (149cc) - 2 person </p>
-   <p>  Side-by-Side ATVs</p>
-   <p>  Honda Pioneer 1000 - 4 person</p>   
-      <img class="img2" src="../finalpro/images/R (1).webp" alt="jeep" loading="lazy">
-            <p>Jeep Wrangler - 2 door - open air - manuel - 4 person</p> 
+       </div>
+       </div>
+   </div>
+   
+   <div id="rentalInfor">
+       <h3>Rental Information</h3>
+     <h3>Types of Rentals</h3>
+       <figure class="scootImg">
+          <img class="img1" src="../finalpro/images/atv-New-2016-Honda-Pioneer-1000.webp" alt="motor" loading="lazy">
+       </figure>
+       <p> Honda Motor Scooters</p>
+  <p> Honda Metropolitan (49cc) - 1 person</p>
+  <p> Honda Dio (110cc) - 2 person </p>
+  <p> Honda PCX150 (149cc) - 2 person </p>
+  <p>  Side-by-Side ATVs</p>
+  <p>  Honda Pioneer 1000 - 4 person</p>   
+     <img class="img2" src="../finalpro/images/R (1).webp" alt="jeep" loading="lazy">
+           <p>Jeep Wrangler - 2 door - open air - manuel - 4 person</p> 
 
-    </div>
-        <section  id="contactArea">
-          <div class="contact">
-            <h3>Contact Us</h3>
-            <p>📍 Av. Rafael E. Melgar 551, Centro, 77600<br>San Miguel de Cozumel, Q.R., Mexico</p>
-            <p>☎ +52 987 872 0833<br>✉ info@cozumel.com</p>
-          </div>
-          <div id="weather-info">
-        <p>🌞Today Weather</p>
-        <p>Cozumel Weather:  <span id="current-temp"></span></p>  <p>°<span>C</span></p> 
-        <figure>
-          <img id="weather-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather icons" loading="lazy">
-          <figcaption></figcaption>
-        </figure>
-        <P></P>
-        </div>
-        <div class="visit">
-       <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
-        </div>
-              </section>
-              </main>
-              <footer>
-              <section id="footerbar">
+   </div>
+       <section  id="contactArea">
+         <div class="contact">
+           <h3>Contact Us</h3>
+           <p>📍 Av. Rafael E. Melgar 551, Centro, 77600<br>San Miguel de Cozumel, Q.R., Mexico</p>
+           <p>☎ +52 987 872 0833<br>✉ info@cozumel.com</p>
+         </div>
+         <div id="weather-info">
+       <p>🌞Today Weather</p>
+       <p>Cozumel Weather:  <span id="current-temp"></span></p>  <p>°<span>C</span></p> 
+       <figure>
+         <img id="weather-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather icons" loading="lazy">
+         <figcaption></figcaption>
+       </figure>
+       <P></P>
+       </div>
+       <div class="visit">
+      <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+       </div>
+             </section>
+    </main>
+    <footer>
+        <section id="footerbar">
             <a href="https://facebook.com" target="_blank">
                 <img src="../chamber/images/facebook-icon-960x1024.jpg" alt="fb icon" loading="lazy">
             </a>
-            <a href="https://twitter.com" target="_blank" >
+            <a href="https://twitter.com" target="_blank">
                 <img src="../chamber/images/x.png" alt="X icon" loading="lazy">
             </a>           
             <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa </p>
             <p id="lastModified"></p>
-        
         </section>
-      </footer>
-    </div>   
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-           <script src="../finalpro/script/weather.js"></script>
-           <script src="../finalpro/script/temperature.js"></script> 
-           <script src="../finalpro/script/getdata.js"></script>  
-           <script src="../finalpro/script/menu.js"></script>
-        </body>
-        </html>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../finalpro/script/weather.js"></script>
+    <script src="../finalpro/script/temperature.js"></script> 
+    <script src="../finalpro/script/getdata.js"></script>  
+    <script src="../finalpro/script/menu.js"></script>
+</body>
+</html>

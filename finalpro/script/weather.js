@@ -45,7 +45,7 @@ const windSpeedCozumel = document.getElementById("windSpeedCozumel");
 const weatherIcon = document.getElementById("weatherIcon");
 
 // Define the API key and the URL
-const apiKey = "6f890d0a59271c9f5a3cf6919b33d215&units=imperial"; // Replace with your own API key
+const apiKey = "15b7c720f81f42feaffd4c4fbb44c08b&units=imperial"; // Replace with your own API key
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Cozumel&units=imperial&appid=" + apiKey;
 
 // Fetch the weather data from the API
